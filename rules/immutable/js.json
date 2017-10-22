@@ -1,5 +1,5 @@
 {
-  "no-let": [true, "ignore-local"],
+  "no-let": false,
   "no-object-mutation": true,
 
   "no-this": false,

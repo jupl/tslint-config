@@ -7,13 +7,13 @@ import {
   RuleFailure,
 } from 'tslint'
 
-export interface ILintResult {
-  readonly failures: ReadonlyArray<IRuleFailureJson>
-  readonly errorCount: number
-  readonly warningCount: number
-  readonly fixes: ReadonlyArray<IRuleFailureJson>
-  readonly format: string | FormatterConstructor
-  readonly output: string
+interface ILintResult {
+  failures: ReadonlyArray<IRuleFailureJson>
+  errorCount: number
+  warningCount: number
+  fixes: ReadonlyArray<IRuleFailureJson>
+  format: string | FormatterConstructor
+  output: string
 }
 
 const basePath = process.cwd()
