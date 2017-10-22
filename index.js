@@ -1,6 +1,7 @@
 'use strict'
 
 const rules = [
+  require('./rules/eslint'),
   require('./rules/typescript'),
   require('./rules/functionality'),
   require('./rules/maintainability'),

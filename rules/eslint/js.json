@@ -15,7 +15,9 @@
   "valid-jsdoc": [true, {
     "matchDescription": ".+",
     "requireParamDescription": true,
+    "requireParamType": true,
     "requireReturnDescription": true,
+    "requireReturnType": true,
     "requireReturn": false
   }],
   "valid-typeof": false,

@@ -1,0 +1,8 @@
+{
+  "valid-jsdoc": [true, {
+    "matchDescription": ".+",
+    "requireParamDescription": true,
+    "requireReturnDescription": true,
+    "requireReturn": false
+  }]
+}
