@@ -4,13 +4,13 @@
   "description": "Personal TSLint configuration",
   "author": "jupl",
   "license": "MIT",
-  "homepage": "https://github.com/jupl/tslint-jupl#readme",
+  "homepage": "https://github.com/jupl/tslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jupl/tslint-jupl.git"
+    "url": "git+https://github.com/jupl/tslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/jupl/tslint-jupl/issues"
+    "url": "https://github.com/jupl/tslint-config/issues"
   },
   "main": "./index.js",
   "scripts": {
