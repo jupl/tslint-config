@@ -32,10 +32,10 @@
   "ter-indent": false,
   "ter-max-len": false,
   "sort-imports": false,
-  "space-in-parens": [true, "never"],
+  "space-in-parens": false,
 
   "ter-arrow-body-style": false,
   "ter-arrow-parens": false,
-  "ter-arrow-spacing": [true, {"before": true, "after": true}],
+  "ter-arrow-spacing": false,
   "ter-prefer-arrow-callback": false
 }

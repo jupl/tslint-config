@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "maxNodeModuleJsDepth": 1,
     "module": "commonjs",
     "moduleResolution": "node",

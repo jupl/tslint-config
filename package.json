@@ -14,8 +14,8 @@
   },
   "main": "./index.js",
   "scripts": {
-    "lint": "tslint --project tsconfig.json",
-    "lint:fix": "npm run lint -- --fix",
+    "lint": "npm run lint:file -- '*.{t,j}s' 'rules/**/*.test.{t,j}s'",
+    "lint:file": "tslint --fix --project tsconfig.json",
     "test": "jest"
   },
   "jest": {

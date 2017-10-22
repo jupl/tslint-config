@@ -15,7 +15,7 @@ const jsRules = [
   require('./rules/style/js'),
 ]
 
-module.exports = {
+module.exports = { // tslint:disable-line:no-object-mutation
   extends: 'tslint-eslint-rules',
   rules: Object.assign({}, ...jsRules, ...rules),
   jsRules: Object.assign({}, ...jsRules),
