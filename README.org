@@ -1,0 +1,32 @@
+* tslint-config
+[[https://travis-ci.org/jupl/tslint-config][file:https://img.shields.io/travis/jupl/tslint-config.svg?label=travis&style=flat-square]]
+[[https://codecov.io/gh/jupl/tslint-config][file:https://img.shields.io/codecov/c/github/jupl/tslint-config.svg?style=flat-square]]
+[[https://david-dm.org/jupl/tslint-config][file:https://img.shields.io/david/jupl/tslint-config.svg?style=flat-square]]
+[[https://david-dm.org/jupl/tslint-config?type=dev][file:https://img.shields.io/david/dev/jupl/tslint-config.svg?style=flat-square]]
+
+** About
+Personal [[https://palantir.github.io/tslint/][TSLint]] [[http://eslint.org/docs/developer-guide/shareable-configs.html][configuration]].
+
+** Installation
+#+BEGIN_EXAMPLE
+npm install @jupl/tslint-config tslint tslint-eslint-rules tslint-immutable
+npm install tslint-react # Required for JSX
+#+END_EXAMPLE
+
+** Usage
+Add to =tslint.json=:
+#+BEGIN_SRC json
+{
+  "extends": "@jupl/tslint-config"
+}
+#+END_SRC
+
+If using JSX:
+#+BEGIN_SRC json
+{
+  "extends": [
+    "@jupl/tslint-config",
+    "@jupl/tslint-config/jsx"
+  ]
+}
+#+END_SRC

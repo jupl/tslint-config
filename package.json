@@ -16,7 +16,8 @@
   "scripts": {
     "lint": "npm run lint:file -- '*.{t,j}s' 'rules/**/*.test.{t,j}s'",
     "lint:file": "tslint --fix --project tsconfig.json",
-    "test": "jest"
+    "test": "jest",
+    "pretest": "npm run lint"
   },
   "jest": {
     "mapCoverage": true,
