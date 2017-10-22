@@ -1,7 +1,7 @@
 * tslint-config
 [[https://www.npmjs.org/package/@jupl/tslint-config][file:https://img.shields.io/npm/v/@jupl/tslint-config.svg?style=flat-square]]
 [[https://travis-ci.org/jupl/tslint-config][file:https://img.shields.io/travis/jupl/tslint-config.svg?label=travis&style=flat-square]]
-[[https://david-dm.org/jupl/tslint-config][file:https://img.shields.io/david/jupl/tslint-config.svg?style=flat-square]]
+[[https://david-dm.org/jupl/tslint-config?type=peer][file:https://img.shields.io/david/peer/jupl/tslint-config.svg?style=flat-square]]
 [[https://david-dm.org/jupl/tslint-config?type=dev][file:https://img.shields.io/david/dev/jupl/tslint-config.svg?style=flat-square]]
 
 ** About
