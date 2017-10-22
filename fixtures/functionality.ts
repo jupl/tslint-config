@@ -9,9 +9,6 @@ function a<T>(t?: T) {
   return t!
 }
 
-/** Inferred empty object */
-export const b = a()
-
 /** Misused new */
 interface ITest {
   new(): ITest
