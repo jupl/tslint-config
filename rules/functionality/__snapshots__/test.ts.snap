@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Immutable rules should be valid 1`] = `
+Object {
+  "errorCount": 0,
+  "failures": Array [],
+  "fixes": Array [],
+  "format": "prose",
+  "output": "
+",
+  "warningCount": 0,
+}
+`;
