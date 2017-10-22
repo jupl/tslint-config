@@ -1,10 +1,10 @@
 'use strict'
 
 const rules = [
-  require('./rules/react'),
+  require('./rules/jsx'),
 ]
 const jsRules = [
-  require('./rules/react/js'),
+  require('./rules/jsx/js'),
 ]
 
 module.exports = { // tslint:disable-line:no-object-mutation

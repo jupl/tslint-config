@@ -1,6 +1,6 @@
 {
   "extends": [
     "./index",
-    "./react"
+    "./jsx"
   ]
 }
