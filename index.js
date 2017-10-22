@@ -1,3 +1,5 @@
+'use strict'
+
 const rules = [
   require('./rules/typescript'),
   require('./rules/functionality'),
@@ -13,9 +15,7 @@ const jsRules = [
 ]
 
 module.exports = {
-  extends: [
-    'tslint-eslint-rules',
-  ],
+  extends: 'tslint-eslint-rules',
   rules: Object.assign({}, ...jsRules, ...rules),
   jsRules: Object.assign({}, ...jsRules),
 }

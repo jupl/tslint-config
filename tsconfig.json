@@ -11,6 +11,6 @@
       {"name": "tslint-language-service"}
     ],
     "strict": true,
-    "target": "es2015"
+    "target": "es2017"
   }
 }

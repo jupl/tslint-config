@@ -1,0 +1,7 @@
+{
+  "readonly-keyword": [true, "ignore-local"],
+  "readonly-array": [true, "ignore-local"],
+  "no-method-signature": true,
+
+  "no-mixed-interface": true
+}

@@ -1,0 +1,9 @@
+{
+  "no-let": [true, "ignore-local"],
+  "no-object-mutation": true,
+
+  "no-this": false,
+  "no-class": false,
+  "no-new": false,
+  "no-expression-statement": false
+}

@@ -1,0 +1,14 @@
+{
+  "jsx-alignment": true,
+  "jsx-ban-props": false,
+  "jsx-boolean-value": [true, "never"],
+  "jsx-equals-spacing": [true, "never"],
+  "jsx-key": "warn",
+  "jsx-no-bind": true,
+  "jsx-no-lambda": true,
+  "jsx-no-multiline-js": true,
+  "jsx-no-string-ref": true,
+  "jsx-use-translation-function": false,
+  "jsx-self-close": true,
+  "jsx-wrap-multiline": true
+}

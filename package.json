@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/jupl/tslint-jupl/issues"
   },
-  "main": "./index.json",
+  "main": "./index.js",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
@@ -45,6 +45,7 @@
     "ts-jest": "^21.1.3",
     "tslint": "^5.8.0",
     "tslint-eslint-rules": "^4.1.1",
+    "tslint-immutable": "^4.4.0",
     "tslint-language-service": "^0.9.6",
     "tslint-react": "^3.2.0",
     "typescript": "^2.5.3"
