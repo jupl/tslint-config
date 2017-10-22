@@ -1,0 +1,24 @@
+{
+  "cyclomatic-complexity": false,
+  "deprecation": "warn",
+  "eofline": true,
+  "indent": [true, "spaces", 2],
+  "linebreak-style": [true, "LF"],
+  "max-classes-per-file": [true, 1],
+  "max-file-line-count": ["warn", 400],
+  "max-line-length": ["warn", 79],
+  "no-default-export": true,
+  "no-duplicate-imports": true,
+  "no-require-imports": false,
+  "object-literal-sort-keys": false,
+  "prefer-const": true,
+  "trailing-comma": [true, {
+    "multiline": {
+      "objects": "always",
+      "arrays": "always",
+      "functions": "always",
+      "typeLiterals": "ignore"
+    },
+    "singleline": "never"
+  }]
+}

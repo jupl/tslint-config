@@ -1,0 +1,52 @@
+{
+  "name": "tslint-jupl",
+  "version": "0.1.0",
+  "description": "Personal TSLint configuration",
+  "author": "jupl",
+  "license": "MIT",
+  "homepage": "https://github.com/jupl/tslint-jupl#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupl/tslint-jupl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jupl/tslint-jupl/issues"
+  },
+  "main": "./index.json",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest"
+  },
+  "jest": {
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts",
+      "tsx"
+    ],
+    "testRegex": "(/__tests__/.*|[./](test|spec))\\.tsx?$",
+    "transform": {
+      ".tsx?": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    }
+  },
+  "peerDependencies": {
+    "tslint": ">=5.8.0",
+    "tslint-eslint-rules": ">=4.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.4",
+    "@types/mz": "0.0.32",
+    "@types/node": "^8.0.46",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "mz": "^2.7.0",
+    "ts-jest": "^21.1.3",
+    "tslint": "^5.8.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-language-service": "^0.9.6",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.3"
+  }
+}

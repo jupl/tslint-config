@@ -1,0 +1,13 @@
+{
+  "await-promise": true,
+  "no-floating-promises": true,
+  "no-inferred-empty-object-type": true,
+  "no-misused-new": true,
+  "no-object-literal-type-assertion": true,
+  "no-unbound-method": true,
+  "no-unsafe-any": false,
+  "no-unused-variable": [true, {"ignore-pattern": "^_"}],
+  "strict-boolean-expressions": true,
+  "strict-type-predicates": true,
+  "use-default-type-parameter": true
+}

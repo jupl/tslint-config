@@ -1,0 +1,39 @@
+{
+  "no-constant-condition": true,
+  "no-control-regex": true,
+  "no-duplicate-case": false,
+  "no-empty-character-class": true,
+  "no-ex-assign": true,
+  "no-extra-boolean-cast": true,
+  "no-extra-semi": true,
+  "no-inner-declarations": [true, "both"],
+  "no-invalid-regexp": false,
+  "ter-no-irregular-whitespace": false,
+  "no-regex-spaces": true,
+  "ter-no-sparse-arrays": false,
+  "no-unexpected-multiline": true,
+  "valid-jsdoc": [true, {
+    "matchDescription": ".+",
+    "requireParamDescription": true,
+    "requireReturnDescription": true,
+    "requireReturn": false
+  }],
+  "valid-typeof": false,
+
+  "no-multi-spaces": true,
+  "handle-callback-err": [true, "^.*(e|E)rr"],
+
+  "array-bracket-spacing": [true, "never"],
+  "block-spacing": [true, "always"],
+  "brace-style": [true, "stroustrup", {"allowSingleLine": true}],
+  "ter-func-call-spacing": false,
+  "ter-indent": false,
+  "ter-max-len": false,
+  "sort-imports": false,
+  "space-in-parens": [true, "never"],
+
+  "ter-arrow-body-style": false,
+  "ter-arrow-parens": false,
+  "ter-arrow-spacing": [true, {"before": true, "after": true}],
+  "ter-prefer-arrow-callback": false
+}

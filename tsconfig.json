@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "maxNodeModuleJsDepth": 1,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "plugins": [
+      {"name": "tslint-language-service"}
+    ],
+    "strict": true,
+    "target": "es2015"
+  }
+}
