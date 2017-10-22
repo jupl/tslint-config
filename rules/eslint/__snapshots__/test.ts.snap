@@ -1,5 +1,126 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ESLint rules should be valid for JS 1`] = `
+Object {
+  "errorCount": 5,
+  "failures": Array [
+    Object {
+      "endPosition": Object {
+        "character": 3,
+        "line": 3,
+        "position": 46,
+      },
+      "failure": "missing JSDoc parameter type for 'a'",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "valid-jsdoc",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 0,
+        "position": 0,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 3,
+        "line": 3,
+        "position": 46,
+      },
+      "failure": "missing JSDoc return type",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "valid-jsdoc",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 0,
+        "position": 0,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 3,
+        "line": 3,
+        "position": 46,
+      },
+      "failure": "missing JSDoc for parameter 'b'",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "valid-jsdoc",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 0,
+        "position": 0,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 3,
+        "line": 3,
+        "position": 46,
+      },
+      "failure": "JSDoc description does not satisfy the regex pattern",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "valid-jsdoc",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 0,
+        "position": 0,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 14,
+        "line": 5,
+        "position": 89,
+      },
+      "failure": "Operands of '+' operation must either be both strings or both numbers",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "restrict-plus-operands",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 9,
+        "line": 5,
+        "position": 84,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 27,
+        "line": 4,
+        "position": 74,
+      },
+      "failure": "Documentation must exist for exported functions.",
+      "fix": undefined,
+      "name": "./fixtures/eslint-js.js",
+      "ruleName": "completed-docs",
+      "ruleSeverity": "WARNING",
+      "startPosition": Object {
+        "character": 0,
+        "line": 4,
+        "position": 47,
+      },
+    },
+  ],
+  "fixes": Array [],
+  "format": "prose",
+  "output": "
+ERROR: ./fixtures/eslint-js.js[1, 1]: missing JSDoc parameter type for 'a'
+ERROR: ./fixtures/eslint-js.js[1, 1]: missing JSDoc return type
+ERROR: ./fixtures/eslint-js.js[1, 1]: missing JSDoc for parameter 'b'
+ERROR: ./fixtures/eslint-js.js[1, 1]: JSDoc description does not satisfy the regex pattern
+WARNING: ./fixtures/eslint-js.js[5, 1]: Documentation must exist for exported functions.
+ERROR: ./fixtures/eslint-js.js[6, 10]: Operands of '+' operation must either be both strings or both numbers
+",
+  "warningCount": 1,
+}
+`;
+
 exports[`ESLint rules should be valid for TS 1`] = `
 Object {
   "errorCount": 21,

@@ -6,8 +6,8 @@ describe('ESLint rules', () => {
     expect(results).toMatchSnapshot()
   })
 
-  it.skip('should be valid for JS', async() => {
-    const results = await lintFixture('eslint.js')
+  it('should be valid for JS', async() => {
+    const results = await lintFixture('eslint-js.js')
     expect(results).toMatchSnapshot()
   })
 })
