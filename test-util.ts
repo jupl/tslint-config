@@ -18,8 +18,14 @@ interface ILintResult {
 
 const basePath = process.cwd()
 const configuration = Configuration.loadConfigurationFromPath('./tslint.json')
-const linter = new Linter({fix: true}, Linter.createProgram('./tsconfig.json'))
+const program = Linter.createProgram('./tsconfig.json')
+const linter = new Linter({fix: false}, program)
 
+/**
+ * Run linting analysis on a fixture
+ * @param fixtureName Filename relative to fixtures/
+ * @return Lint results
+ */
 export async function lintFixture(fixtureName: string): Promise<ILintResult> {
   const fileName = `./fixtures/${fixtureName}`
   const file = await readFile(fileName, 'utf8')

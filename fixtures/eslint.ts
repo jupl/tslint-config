@@ -4,6 +4,7 @@ if(true) {
   // empty
 }
 
+/** Pattern 1 */
 export const pat1 = {
   reg: new RegExp('\x1f'),
   reg2: /[]/,
@@ -20,7 +21,7 @@ catch(e) {
     abc()
     function abc() {
       const tru = /a   b/
-      const arc = [1, , 2]
+      const arc = [0, , 1]
       const c = 'd'
       (true || false).toString()
       return [tru, arc, c]
@@ -35,14 +36,19 @@ export function def(a: number, b: number) {
   if(pat1  === {}) {
     console.log(a, b)
   }
+  const c = {
+   d: {
+		e: 1,
+   },
+  }
   readFile('./test', err => {
     // empty
   })
-  const [c, d] = [1, 2]
-  if(a === 1) {return []}
-  if(a === 2)
+  const [d, e] = [0, 1]
+  if(a === 0) {return []}
+  if(a === 1)
   {
     return []
   }
-  return [c, d]
+  return [c, d, e]
 }

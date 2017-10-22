@@ -1,7 +1,7 @@
 {
   "member-ordering": false,
   "no-import-side-effect": false,
-  "no-magic-numbers": ["warn", -1, 0, 1, 10],
+  "no-magic-numbers": {"severity": "warn", "options": [-1, 0, 1, 10]},
   "no-parameter-reassignment": true,
   "no-reference": true,
   "only-arrow-functions": [

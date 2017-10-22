@@ -3,5 +3,5 @@ interface IMixed {
   arc(): string
 }
 
-const a = [1, 2]
+const a = [0, 1]
 a[0] = 1

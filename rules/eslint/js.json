@@ -29,7 +29,7 @@
   "block-spacing": [true, "always"],
   "brace-style": [true, "stroustrup", {"allowSingleLine": true}],
   "ter-func-call-spacing": false,
-  "ter-indent": false,
+  "ter-indent": [true, 2],
   "ter-max-len": false,
   "sort-imports": false,
   "space-in-parens": false,

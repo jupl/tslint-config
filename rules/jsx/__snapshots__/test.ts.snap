@@ -7,8 +7,8 @@ Object {
     Object {
       "endPosition": Object {
         "character": 17,
-        "line": 4,
-        "position": 85,
+        "line": 5,
+        "position": 102,
       },
       "failure": "JSX attributes must be indented further than the opening tag statement",
       "fix": undefined,
@@ -17,15 +17,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 2,
-        "line": 4,
-        "position": 70,
+        "line": 5,
+        "position": 87,
       },
     },
     Object {
       "endPosition": Object {
         "character": 19,
-        "line": 5,
-        "position": 105,
+        "line": 6,
+        "position": 122,
       },
       "failure": "JSX attributes must be on their own line and vertically aligned",
       "fix": undefined,
@@ -34,15 +34,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 4,
-        "line": 5,
-        "position": 90,
+        "line": 6,
+        "position": 107,
       },
     },
     Object {
       "endPosition": Object {
         "character": 13,
-        "line": 28,
-        "position": 527,
+        "line": 35,
+        "position": 755,
       },
       "failure": "Closing tag must be on its own line and aligned with opening tag",
       "fix": undefined,
@@ -51,15 +51,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 7,
-        "line": 28,
-        "position": 521,
+        "line": 35,
+        "position": 749,
       },
     },
     Object {
       "endPosition": Object {
         "character": 19,
-        "line": 5,
-        "position": 105,
+        "line": 6,
+        "position": 122,
       },
       "failure": "Value must be omitted for boolean attributes",
       "fix": undefined,
@@ -68,15 +68,32 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 4,
-        "line": 5,
-        "position": 90,
+        "line": 6,
+        "position": 107,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 58,
+        "line": 16,
+        "position": 303,
+      },
+      "failure": "Missing \\"key\\" prop for element.",
+      "fix": undefined,
+      "name": "./fixtures/jsx.tsx",
+      "ruleName": "jsx-key",
+      "ruleSeverity": "WARNING",
+      "startPosition": Object {
+        "character": 44,
+        "line": 16,
+        "position": 289,
       },
     },
     Object {
       "endPosition": Object {
         "character": 36,
-        "line": 23,
-        "position": 422,
+        "line": 30,
+        "position": 650,
       },
       "failure": "Binds are forbidden in JSX attributes due to their rendering performance impact",
       "fix": undefined,
@@ -85,15 +102,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 17,
-        "line": 23,
-        "position": 403,
+        "line": 30,
+        "position": 631,
       },
     },
     Object {
       "endPosition": Object {
         "character": 32,
-        "line": 24,
-        "position": 456,
+        "line": 31,
+        "position": 684,
       },
       "failure": "Lambdas are forbidden in JSX attributes due to their rendering performance impact",
       "fix": undefined,
@@ -102,15 +119,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 16,
-        "line": 24,
-        "position": 440,
+        "line": 31,
+        "position": 668,
       },
     },
     Object {
       "endPosition": Object {
         "character": 7,
-        "line": 28,
-        "position": 521,
+        "line": 35,
+        "position": 749,
       },
       "failure": "Multiline JS expressions inside JSX are forbidden",
       "fix": undefined,
@@ -119,15 +136,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 7,
-        "line": 26,
-        "position": 498,
+        "line": 33,
+        "position": 726,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 36,
-        "position": 589,
+        "line": 44,
+        "position": 834,
       },
       "failure": "Multiline JS expressions inside JSX are forbidden",
       "fix": undefined,
@@ -136,15 +153,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 7,
-        "line": 34,
-        "position": 574,
+        "line": 42,
+        "position": 819,
       },
     },
     Object {
       "endPosition": Object {
         "character": 25,
-        "line": 42,
-        "position": 734,
+        "line": 51,
+        "position": 1037,
       },
       "failure": "Pass a callback to ref prop instead of a string literal",
       "fix": undefined,
@@ -153,15 +170,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 20,
-        "line": 42,
-        "position": 729,
+        "line": 51,
+        "position": 1032,
       },
     },
     Object {
       "endPosition": Object {
         "character": 6,
-        "line": 47,
-        "position": 788,
+        "line": 57,
+        "position": 1108,
       },
       "failure": "JSX elements with no children must be self-closing",
       "fix": undefined,
@@ -170,15 +187,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 24,
-        "line": 46,
-        "position": 776,
+        "line": 56,
+        "position": 1096,
       },
     },
     Object {
       "endPosition": Object {
         "character": 6,
-        "line": 47,
-        "position": 788,
+        "line": 57,
+        "position": 1108,
       },
       "failure": "Multiline JSX elements must be wrapped in parentheses",
       "fix": undefined,
@@ -187,26 +204,27 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 24,
-        "line": 46,
-        "position": 776,
+        "line": 56,
+        "position": 1096,
       },
     },
   ],
   "fixes": Array [],
   "format": "prose",
   "output": "
-ERROR: ./fixtures/jsx.tsx[5, 3]: JSX attributes must be indented further than the opening tag statement
-ERROR: ./fixtures/jsx.tsx[6, 5]: JSX attributes must be on their own line and vertically aligned
-ERROR: ./fixtures/jsx.tsx[6, 5]: Value must be omitted for boolean attributes
-ERROR: ./fixtures/jsx.tsx[24, 18]: Binds are forbidden in JSX attributes due to their rendering performance impact
-ERROR: ./fixtures/jsx.tsx[25, 17]: Lambdas are forbidden in JSX attributes due to their rendering performance impact
-ERROR: ./fixtures/jsx.tsx[27, 8]: Multiline JS expressions inside JSX are forbidden
-ERROR: ./fixtures/jsx.tsx[29, 8]: Closing tag must be on its own line and aligned with opening tag
-ERROR: ./fixtures/jsx.tsx[35, 8]: Multiline JS expressions inside JSX are forbidden
-ERROR: ./fixtures/jsx.tsx[43, 21]: Pass a callback to ref prop instead of a string literal
-ERROR: ./fixtures/jsx.tsx[47, 25]: JSX elements with no children must be self-closing
-ERROR: ./fixtures/jsx.tsx[47, 25]: Multiline JSX elements must be wrapped in parentheses
+ERROR: ./fixtures/jsx.tsx[6, 3]: JSX attributes must be indented further than the opening tag statement
+ERROR: ./fixtures/jsx.tsx[7, 5]: JSX attributes must be on their own line and vertically aligned
+ERROR: ./fixtures/jsx.tsx[7, 5]: Value must be omitted for boolean attributes
+WARNING: ./fixtures/jsx.tsx[17, 45]: Missing \\"key\\" prop for element.
+ERROR: ./fixtures/jsx.tsx[31, 18]: Binds are forbidden in JSX attributes due to their rendering performance impact
+ERROR: ./fixtures/jsx.tsx[32, 17]: Lambdas are forbidden in JSX attributes due to their rendering performance impact
+ERROR: ./fixtures/jsx.tsx[34, 8]: Multiline JS expressions inside JSX are forbidden
+ERROR: ./fixtures/jsx.tsx[36, 8]: Closing tag must be on its own line and aligned with opening tag
+ERROR: ./fixtures/jsx.tsx[43, 8]: Multiline JS expressions inside JSX are forbidden
+ERROR: ./fixtures/jsx.tsx[52, 21]: Pass a callback to ref prop instead of a string literal
+ERROR: ./fixtures/jsx.tsx[57, 25]: JSX elements with no children must be self-closing
+ERROR: ./fixtures/jsx.tsx[57, 25]: Multiline JSX elements must be wrapped in parentheses
 ",
-  "warningCount": 0,
+  "warningCount": 1,
 }
 `;

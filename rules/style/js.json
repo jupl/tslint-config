@@ -5,17 +5,20 @@
   "binary-expression-operand-order": true,
   "class-name": true,
   "comment-format": [true, "check-space"],
-  "completed-docs": ["warn", {
-    "classes": {"visibilities": ["exported"]},
-    "enums": {"visibilities": ["exported"]},
-    "functions": {"visibilities": ["exported"]},
-    "interfaces": {"visibilities": ["exported"]},
-    "methods": {"locations": ["all"], "privacies": ["protected", "public"]},
-    "namespaces": {"visibilities": ["exported"]},
-    "properties": {"locations": ["all"], "privacies": ["protected", "public"]},
-    "types": {"visibilities": ["exported"]},
-    "variables": {"visibilities": ["exported"]}
-  }],
+  "completed-docs": {
+    "severity": "warn",
+    "options": {
+      "classes": {"visibilities": ["exported"]},
+      "enums": {"visibilities": ["exported"]},
+      "functions": {"visibilities": ["exported"]},
+      "interfaces": {"visibilities": ["exported"]},
+      "methods": {"locations": ["all"], "privacies": ["protected", "public"]},
+      "namespaces": {"visibilities": ["exported"]},
+      "properties": {"locations": ["all"], "privacies": ["protected", "public"]},
+      "types": {"visibilities": ["exported"]},
+      "variables": {"visibilities": ["exported"]}
+    }
+  },
   "encoding": true,
   "file-header": false,
   "import-spacing": true,

@@ -3,7 +3,7 @@
   "jsx-ban-props": false,
   "jsx-boolean-value": [true, "never"],
   "jsx-equals-spacing": [true, "never"],
-  "jsx-key": "warn",
+  "jsx-key": {"severity": "warn"},
   "jsx-no-bind": true,
   "jsx-no-lambda": true,
   "jsx-no-multiline-js": true,
