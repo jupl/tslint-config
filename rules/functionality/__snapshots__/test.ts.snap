@@ -8,7 +8,7 @@ Object {
       "endPosition": Object {
         "character": 21,
         "line": 19,
-        "position": 247,
+        "position": 244,
       },
       "failure": "missing JSDoc @returns for function",
       "fix": undefined,
@@ -18,14 +18,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 19,
-        "position": 226,
+        "position": 223,
       },
     },
     Object {
       "endPosition": Object {
         "character": 19,
         "line": 97,
-        "position": 1345,
+        "position": 1342,
       },
       "failure": "missing JSDoc @returns for function",
       "fix": undefined,
@@ -35,14 +35,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 97,
-        "position": 1326,
+        "position": 1323,
       },
     },
     Object {
       "endPosition": Object {
         "character": 5,
         "line": 35,
-        "position": 478,
+        "position": 475,
       },
       "failure": "Calls to 'alert' are not allowed.",
       "fix": undefined,
@@ -52,25 +52,25 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 35,
-        "position": 473,
+        "position": 470,
       },
     },
     Object {
       "endPosition": Object {
         "character": 21,
         "line": 38,
-        "position": 546,
+        "position": 543,
       },
       "failure": "if statements must be braced",
       "fix": Array [
         Object {
           "innerLength": 0,
-          "innerStart": 524,
+          "innerStart": 521,
           "innerText": " {",
         },
         Object {
           "innerLength": 0,
-          "innerStart": 546,
+          "innerStart": 543,
           "innerText": "
 }",
         },
@@ -81,14 +81,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 37,
-        "position": 483,
+        "position": 480,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
         "line": 42,
-        "position": 591,
+        "position": 588,
       },
       "failure": "for (... in ...) statements must be filtered with an if statement",
       "fix": undefined,
@@ -98,14 +98,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 40,
-        "position": 548,
+        "position": 545,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
         "line": 89,
-        "position": 1248,
+        "position": 1245,
       },
       "failure": "for (... in ...) statements must be filtered with an if statement",
       "fix": undefined,
@@ -115,14 +115,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 87,
-        "position": 1205,
+        "position": 1202,
       },
     },
     Object {
       "endPosition": Object {
         "character": 7,
         "line": 45,
-        "position": 615,
+        "position": 612,
       },
       "failure": "unexpected label on statement",
       "fix": undefined,
@@ -132,14 +132,14 @@ Object {
       "startPosition": Object {
         "character": 2,
         "line": 45,
-        "position": 610,
+        "position": 607,
       },
     },
     Object {
       "endPosition": Object {
         "character": 30,
         "line": 46,
-        "position": 647,
+        "position": 644,
       },
       "failure": "Access to arguments.callee is forbidden",
       "fix": undefined,
@@ -149,14 +149,14 @@ Object {
       "startPosition": Object {
         "character": 14,
         "line": 46,
-        "position": 631,
+        "position": 628,
       },
     },
     Object {
       "endPosition": Object {
         "character": 23,
         "line": 47,
-        "position": 672,
+        "position": 669,
       },
       "failure": "Forbidden bitwise operation",
       "fix": undefined,
@@ -166,14 +166,14 @@ Object {
       "startPosition": Object {
         "character": 14,
         "line": 47,
-        "position": 663,
+        "position": 660,
       },
     },
     Object {
       "endPosition": Object {
         "character": 19,
         "line": 47,
-        "position": 668,
+        "position": 665,
       },
       "failure": "Forbidden bitwise operation",
       "fix": undefined,
@@ -183,14 +183,14 @@ Object {
       "startPosition": Object {
         "character": 14,
         "line": 47,
-        "position": 663,
+        "position": 660,
       },
     },
     Object {
       "endPosition": Object {
         "character": 55,
         "line": 49,
-        "position": 745,
+        "position": 742,
       },
       "failure": "Assignments in conditional expressions are forbidden",
       "fix": undefined,
@@ -200,14 +200,14 @@ Object {
       "startPosition": Object {
         "character": 47,
         "line": 49,
-        "position": 737,
+        "position": 734,
       },
     },
     Object {
       "endPosition": Object {
         "character": 26,
         "line": 50,
-        "position": 776,
+        "position": 773,
       },
       "failure": "Forbidden constructor, use a literal or simple function call instead",
       "fix": undefined,
@@ -217,14 +217,14 @@ Object {
       "startPosition": Object {
         "character": 16,
         "line": 50,
-        "position": 766,
+        "position": 763,
       },
     },
     Object {
       "endPosition": Object {
         "character": 12,
         "line": 51,
-        "position": 793,
+        "position": 790,
       },
       "failure": "Use of debugger statements is forbidden",
       "fix": undefined,
@@ -234,14 +234,14 @@ Object {
       "startPosition": Object {
         "character": 4,
         "line": 51,
-        "position": 785,
+        "position": 782,
       },
     },
     Object {
       "endPosition": Object {
         "character": 11,
         "line": 66,
-        "position": 970,
+        "position": 967,
       },
       "failure": "Multiple calls to 'super()' found. It must be called only once.",
       "fix": undefined,
@@ -251,14 +251,14 @@ Object {
       "startPosition": Object {
         "character": 4,
         "line": 65,
-        "position": 951,
+        "position": 948,
       },
     },
     Object {
       "endPosition": Object {
         "character": 14,
         "line": 77,
-        "position": 1108,
+        "position": 1105,
       },
       "failure": "Duplicate switch case: ''develop''.",
       "fix": undefined,
@@ -268,14 +268,14 @@ Object {
       "startPosition": Object {
         "character": 5,
         "line": 77,
-        "position": 1099,
+        "position": 1096,
       },
     },
     Object {
       "endPosition": Object {
         "character": 44,
         "line": 83,
-        "position": 1192,
+        "position": 1189,
       },
       "failure": "block is empty",
       "fix": undefined,
@@ -285,14 +285,14 @@ Object {
       "startPosition": Object {
         "character": 42,
         "line": 83,
-        "position": 1190,
+        "position": 1187,
       },
     },
     Object {
       "endPosition": Object {
         "character": 4,
         "line": 85,
-        "position": 1198,
+        "position": 1195,
       },
       "failure": "forbidden eval",
       "fix": undefined,
@@ -302,14 +302,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 85,
-        "position": 1194,
+        "position": 1191,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
         "line": 89,
-        "position": 1248,
+        "position": 1245,
       },
       "failure": "for-in loops over arrays are forbidden. Use for-of or array.forEach instead.",
       "fix": undefined,
@@ -319,14 +319,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 87,
-        "position": 1205,
+        "position": 1202,
       },
     },
     Object {
       "endPosition": Object {
         "character": 14,
         "line": 91,
-        "position": 1264,
+        "position": 1261,
       },
       "failure": "Module 'acorn' is not listed as dependency in package.json",
       "fix": undefined,
@@ -336,14 +336,14 @@ Object {
       "startPosition": Object {
         "character": 7,
         "line": 91,
-        "position": 1257,
+        "position": 1254,
       },
     },
     Object {
       "endPosition": Object {
         "character": 18,
         "line": 93,
-        "position": 1284,
+        "position": 1281,
       },
       "failure": "Interpolation will only work for template strings.",
       "fix": undefined,
@@ -353,14 +353,14 @@ Object {
       "startPosition": Object {
         "character": 16,
         "line": 93,
-        "position": 1282,
+        "position": 1279,
       },
     },
     Object {
       "endPosition": Object {
         "character": 16,
         "line": 94,
-        "position": 1305,
+        "position": 1302,
       },
       "failure": "the \\"this\\" keyword is disallowed outside of a class body",
       "fix": undefined,
@@ -370,14 +370,14 @@ Object {
       "startPosition": Object {
         "character": 12,
         "line": 94,
-        "position": 1301,
+        "position": 1298,
       },
     },
     Object {
       "endPosition": Object {
         "character": 4,
         "line": 124,
-        "position": 1738,
+        "position": 1735,
       },
       "failure": "the \\"this\\" keyword is disallowed outside of a class body",
       "fix": undefined,
@@ -387,14 +387,14 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 124,
-        "position": 1734,
+        "position": 1731,
       },
     },
     Object {
       "endPosition": Object {
         "character": 16,
         "line": 95,
-        "position": 1323,
+        "position": 1320,
       },
       "failure": "Use 'undefined' instead of 'null'",
       "fix": undefined,
@@ -404,19 +404,19 @@ Object {
       "startPosition": Object {
         "character": 12,
         "line": 95,
-        "position": 1319,
+        "position": 1316,
       },
     },
     Object {
       "endPosition": Object {
         "character": 14,
         "line": 101,
-        "position": 1419,
+        "position": 1416,
       },
       "failure": "Unnecessary 'await'.",
       "fix": Object {
         "innerLength": 6,
-        "innerStart": 1414,
+        "innerStart": 1411,
         "innerText": "",
       },
       "name": "./fixtures/functionality.ts",
@@ -425,14 +425,14 @@ Object {
       "startPosition": Object {
         "character": 9,
         "line": 101,
-        "position": 1414,
+        "position": 1411,
       },
     },
     Object {
       "endPosition": Object {
         "character": 9,
         "line": 99,
-        "position": 1383,
+        "position": 1380,
       },
       "failure": "Shadowed name: 'a'",
       "fix": undefined,
@@ -442,14 +442,14 @@ Object {
       "startPosition": Object {
         "character": 8,
         "line": 99,
-        "position": 1382,
+        "position": 1379,
       },
     },
     Object {
       "endPosition": Object {
         "character": 20,
         "line": 104,
-        "position": 1456,
+        "position": 1453,
       },
       "failure": "Array has a missing element.",
       "fix": undefined,
@@ -459,19 +459,19 @@ Object {
       "startPosition": Object {
         "character": 19,
         "line": 104,
-        "position": 1455,
+        "position": 1452,
       },
     },
     Object {
       "endPosition": Object {
         "character": 34,
         "line": 105,
-        "position": 1500,
+        "position": 1497,
       },
       "failure": "object access via string literals is disallowed",
       "fix": Object {
         "innerLength": 12,
-        "innerStart": 1489,
+        "innerStart": 1486,
         "innerText": ".NODE_ENV",
       },
       "name": "./fixtures/functionality.ts",
@@ -480,25 +480,25 @@ Object {
       "startPosition": Object {
         "character": 24,
         "line": 105,
-        "position": 1490,
+        "position": 1487,
       },
     },
     Object {
       "endPosition": Object {
         "character": 13,
         "line": 108,
-        "position": 1561,
+        "position": 1558,
       },
       "failure": "Throwing plain strings (not instances of Error) gives no stack traces",
       "fix": Array [
         Object {
           "innerLength": 0,
-          "innerStart": 1556,
+          "innerStart": 1553,
           "innerText": "new Error(",
         },
         Object {
           "innerLength": 0,
-          "innerStart": 1561,
+          "innerStart": 1558,
           "innerText": ")",
         },
       ],
@@ -508,14 +508,14 @@ Object {
       "startPosition": Object {
         "character": 2,
         "line": 108,
-        "position": 1550,
+        "position": 1547,
       },
     },
     Object {
       "endPosition": Object {
         "character": 4,
         "line": 117,
-        "position": 1677,
+        "position": 1674,
       },
       "failure": "expected a 'break' before 'case'",
       "fix": undefined,
@@ -525,7 +525,7 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 117,
-        "position": 1673,
+        "position": 1670,
       },
     },
     Object {
@@ -581,9 +581,9 @@ Object {
     },
     Object {
       "endPosition": Object {
-        "character": 14,
+        "character": 13,
         "line": 13,
-        "position": 170,
+        "position": 168,
       },
       "failure": "Interfaces cannot be constructed, only classes. Did you mean \`declare class\`?",
       "fix": undefined,
@@ -593,14 +593,14 @@ Object {
       "startPosition": Object {
         "character": 2,
         "line": 13,
-        "position": 158,
+        "position": 157,
       },
     },
     Object {
       "endPosition": Object {
-        "character": 28,
+        "character": 27,
         "line": 17,
-        "position": 224,
+        "position": 221,
       },
       "failure": "Type assertion on object literals is forbidden, use a type annotation instead.",
       "fix": undefined,
@@ -610,14 +610,14 @@ Object {
       "startPosition": Object {
         "character": 17,
         "line": 17,
-        "position": 213,
+        "position": 211,
       },
     },
     Object {
       "endPosition": Object {
         "character": 20,
         "line": 21,
-        "position": 290,
+        "position": 287,
       },
       "failure": "Avoid referencing unbound methods which may cause unintentional scoping of 'this'.",
       "fix": undefined,
@@ -627,14 +627,14 @@ Object {
       "startPosition": Object {
         "character": 9,
         "line": 21,
-        "position": 279,
+        "position": 276,
       },
     },
     Object {
       "endPosition": Object {
         "character": 30,
         "line": 24,
-        "position": 324,
+        "position": 321,
       },
       "failure": "This type is not allowed in the operand for the '!' operator because it could be undefined. Only booleans are allowed.",
       "fix": undefined,
@@ -644,14 +644,14 @@ Object {
       "startPosition": Object {
         "character": 14,
         "line": 24,
-        "position": 308,
+        "position": 305,
       },
     },
     Object {
       "endPosition": Object {
         "character": 35,
         "line": 27,
-        "position": 411,
+        "position": 408,
       },
       "failure": "Expression is always false.",
       "fix": undefined,
@@ -661,19 +661,19 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 27,
-        "position": 376,
+        "position": 373,
       },
     },
     Object {
       "endPosition": Object {
         "character": 8,
         "line": 33,
-        "position": 468,
+        "position": 465,
       },
       "failure": "This is the default value for this type parameter, so it can be omitted.",
       "fix": Object {
         "innerLength": 8,
-        "innerStart": 461,
+        "innerStart": 458,
         "innerText": "",
       },
       "name": "./fixtures/functionality.ts",
@@ -682,7 +682,7 @@ Object {
       "startPosition": Object {
         "character": 2,
         "line": 33,
-        "position": 462,
+        "position": 459,
       },
     },
   ],

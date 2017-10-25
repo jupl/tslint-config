@@ -1,4 +1,4 @@
-interface IMixed {
+interface Mixed {
   a: string
   arc(): string
 }

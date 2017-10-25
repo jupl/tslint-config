@@ -10,12 +10,12 @@ function a<T>(t?: T) {
 }
 
 /** Misused new */
-interface ITest {
-  new(): ITest
+interface Test {
+  new(): Test
 }
 
 /** Object literal */
-export const c = {} as ITest
+export const c = {} as Test
 
 /** Unbound method */
 export function d() {

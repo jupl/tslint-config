@@ -7,7 +7,7 @@ import {
   RuleFailure,
 } from 'tslint'
 
-interface ILintResult {
+interface LintResult {
   failures: ReadonlyArray<IRuleFailureJson>
   errorCount: number
   warningCount: number
@@ -25,7 +25,7 @@ const program = Linter.createProgram('./tsconfig.json')
  * @param fixtureName Filename relative to fixtures/
  * @return Lint results
  */
-export async function lintFixture(fixtureName: string): Promise<ILintResult> {
+export async function lintFixture(fixtureName: string): Promise<LintResult> {
   const linter = new Linter({fix: false}, program)
   const fileName = `./fixtures/${fixtureName}`
   const file = await readFile(fileName, 'utf8')

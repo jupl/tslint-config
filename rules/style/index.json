@@ -1,7 +1,7 @@
 {
   "array-type": [true, "array"],
   "callable-types": true,
-  "interface-name": [true, "always-prefix"],
+  "interface-name": [true, "never-prefix"],
   "interface-over-type-literal": true,
   "match-default-export-name": false,
   "no-angle-bracket-type-assertion": true,

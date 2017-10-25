@@ -8,7 +8,7 @@ Object {
       "endPosition": Object {
         "character": 15,
         "line": 2,
-        "position": 46,
+        "position": 45,
       },
       "failure": "Only the same kind of members allowed in interfaces.",
       "fix": undefined,
@@ -18,14 +18,14 @@ Object {
       "startPosition": Object {
         "character": 2,
         "line": 2,
-        "position": 33,
+        "position": 32,
       },
     },
     Object {
       "endPosition": Object {
         "character": 8,
         "line": 6,
-        "position": 75,
+        "position": 74,
       },
       "failure": "Modifying properties of existing object not allowed.",
       "fix": undefined,
@@ -35,7 +35,7 @@ Object {
       "startPosition": Object {
         "character": 0,
         "line": 6,
-        "position": 67,
+        "position": 66,
       },
     },
   ],
