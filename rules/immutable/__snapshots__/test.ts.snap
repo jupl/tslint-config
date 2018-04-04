@@ -2,8 +2,25 @@
 
 exports[`Immutable rules should be valid 1`] = `
 Object {
-  "errorCount": 2,
+  "errorCount": 4,
   "failures": Array [
+    Object {
+      "endPosition": Object {
+        "character": 11,
+        "line": 7,
+        "position": 86,
+      },
+      "failure": "Unexpected delete, objects should be considered immutable.",
+      "fix": Array [],
+      "name": "./fixtures/immutable.ts",
+      "ruleName": "no-delete",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 7,
+        "position": 75,
+      },
+    },
     Object {
       "endPosition": Object {
         "character": 15,
@@ -11,7 +28,7 @@ Object {
         "position": 45,
       },
       "failure": "Only the same kind of members allowed in interfaces.",
-      "fix": undefined,
+      "fix": Array [],
       "name": "./fixtures/immutable.ts",
       "ruleName": "no-mixed-interface",
       "ruleSeverity": "ERROR",
@@ -28,7 +45,7 @@ Object {
         "position": 74,
       },
       "failure": "Modifying properties of existing object not allowed.",
-      "fix": undefined,
+      "fix": Array [],
       "name": "./fixtures/immutable.ts",
       "ruleName": "no-object-mutation",
       "ruleSeverity": "ERROR",
@@ -38,12 +55,31 @@ Object {
         "position": 66,
       },
     },
+    Object {
+      "endPosition": Object {
+        "character": 11,
+        "line": 7,
+        "position": 86,
+      },
+      "failure": "Modifying properties of existing object not allowed.",
+      "fix": Array [],
+      "name": "./fixtures/immutable.ts",
+      "ruleName": "no-object-mutation",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 7,
+        "position": 75,
+      },
+    },
   ],
   "fixes": Array [],
   "format": "prose",
   "output": "
 ERROR: ./fixtures/immutable.ts[3, 3]: Only the same kind of members allowed in interfaces.
 ERROR: ./fixtures/immutable.ts[7, 1]: Modifying properties of existing object not allowed.
+ERROR: ./fixtures/immutable.ts[8, 1]: Unexpected delete, objects should be considered immutable.
+ERROR: ./fixtures/immutable.ts[8, 1]: Modifying properties of existing object not allowed.
 ",
   "warningCount": 0,
 }

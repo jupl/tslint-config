@@ -1,3 +1,4 @@
 {
-  "no-mergeable-namespace": true
+  "no-mergeable-namespace": true,
+  "prefer-readonly": true
 }

@@ -23,16 +23,23 @@
   "valid-typeof": false,
 
   "no-multi-spaces": true,
+
   "handle-callback-err": [true, "^.*(e|E)rr"],
 
   "array-bracket-spacing": [true, "never"],
   "block-spacing": [true, "always"],
   "brace-style": [true, "stroustrup", {"allowSingleLine": true}],
+  "ter-computed-property-spacing": [true, "never"],
   "ter-func-call-spacing": false,
   "ter-indent": [true, 2],
   "ter-max-len": false,
+  "ter-newline-after-var": false,
+  "ter-no-mixed-spaces-and-tabs": false,
+  "object-curly-spacing": [true, "never"],
+  "ter-padded-blocks": [true, {"blocks": "never", "switch": "never"}],
   "sort-imports": false,
   "space-in-parens": false,
+  "ter-no-tabs": true,
 
   "ter-arrow-body-style": false,
   "ter-arrow-parens": false,

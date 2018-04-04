@@ -19,6 +19,13 @@ export const c = 1
 export class D {
   /** Prop */
   d: number
+
+  private x = 1
+
+  /** Func */
+  r() {
+    console.log(this.x)
+  }
 }
 
 /** Duplicate class */

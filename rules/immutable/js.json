@@ -4,9 +4,12 @@
   "no-let": false,
   "no-object-mutation": true,
   "no-method-signature": false,
+  "no-delete": true,
 
   "no-this": false,
   "no-class": false,
   "no-mixed-interface": true,
-  "no-expression-statement": false
+  "no-expression-statement": false,
+  "no-if-statement": false,
+  "no-loop-statement": false
 }

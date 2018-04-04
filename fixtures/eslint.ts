@@ -8,12 +8,14 @@ if(true) {
 export const pat1 = {
   reg: new RegExp('\x1f'),
   reg2: /[]/,
+  [ 'a-r']: { c: 1},
 }
 
 try {
   // empty
 }
 catch(e) {
+
   const tru = true
   e = undefined
   if(!!tru) {

@@ -1,6 +1,6 @@
 {
   "name": "@jupl/tslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Personal TSLint configuration",
   "author": "jupl",
   "license": "MIT",
@@ -20,7 +20,6 @@
     "pretest": "npm run lint"
   },
   "jest": {
-    "mapCoverage": true,
     "moduleFileExtensions": [
       "js",
       "json",
@@ -38,20 +37,20 @@
     "tslint-immutable": ">=4.4.0"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.4",
+    "@types/jest": "^22.2.2",
     "@types/mz": "0.0.32",
-    "@types/node": "^8.0.46",
-    "@types/react": "^16.0.17",
-    "jest": "^21.2.1",
-    "jest-cli": "^21.2.1",
+    "@types/node": "^9.6.2",
+    "@types/react": "^16.3.5",
+    "jest": "^22.4.3",
+    "jest-cli": "^22.4.3",
     "mz": "^2.7.0",
-    "react": "^16.0.0",
-    "ts-jest": "^21.1.3",
-    "tslint": "^5.8.0",
-    "tslint-eslint-rules": "^4.1.1",
-    "tslint-immutable": "^4.4.0",
-    "tslint-language-service": "^0.9.6",
-    "tslint-react": "^3.2.0",
-    "typescript": "^2.5.3"
+    "react": "^16.3.1",
+    "ts-jest": "^22.4.2",
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0",
+    "tslint-immutable": "^4.5.3",
+    "tslint-language-service": "^0.9.9",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1"
   }
 }

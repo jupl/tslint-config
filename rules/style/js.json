@@ -24,6 +24,7 @@
   "import-spacing": true,
   "jsdoc-format": [true, "check-multiline-start"],
   "newline-before-return": false,
+  "newline-per-chained-call": false,
   "new-parens": true,
   "no-consecutive-blank-lines": true,
   "no-irregular-whitespace": true,

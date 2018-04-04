@@ -123,7 +123,7 @@ ERROR: ./fixtures/eslint-js.js[6, 10]: Operands of '+' operation must either be 
 
 exports[`ESLint rules should be valid for TS 1`] = `
 Object {
-  "errorCount": 21,
+  "errorCount": 25,
   "failures": Array [
     Object {
       "endPosition": Object {
@@ -179,8 +179,8 @@ Object {
     Object {
       "endPosition": Object {
         "character": 15,
-        "line": 17,
-        "position": 201,
+        "line": 19,
+        "position": 223,
       },
       "failure": "do not assign to the exception parameter",
       "fix": undefined,
@@ -189,15 +189,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 2,
-        "line": 17,
-        "position": 188,
+        "line": 19,
+        "position": 210,
       },
     },
     Object {
       "endPosition": Object {
         "character": 10,
-        "line": 18,
-        "position": 212,
+        "line": 20,
+        "position": 234,
       },
       "failure": "redundant double negation in an if statement condition",
       "fix": undefined,
@@ -206,15 +206,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 6,
-        "line": 18,
-        "position": 208,
+        "line": 20,
+        "position": 230,
       },
     },
     Object {
       "endPosition": Object {
         "character": 5,
-        "line": 27,
-        "position": 403,
+        "line": 29,
+        "position": 425,
       },
       "failure": "move function declaration to program root",
       "fix": undefined,
@@ -223,15 +223,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 4,
-        "line": 21,
-        "position": 248,
+        "line": 23,
+        "position": 270,
       },
     },
     Object {
       "endPosition": Object {
         "character": 25,
-        "line": 22,
-        "position": 290,
+        "line": 24,
+        "position": 312,
       },
       "failure": "spaces are hard to count - use {3}",
       "fix": undefined,
@@ -240,15 +240,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 18,
-        "line": 22,
-        "position": 283,
+        "line": 24,
+        "position": 305,
       },
     },
     Object {
       "endPosition": Object {
         "character": 21,
-        "line": 25,
-        "position": 359,
+        "line": 27,
+        "position": 381,
       },
       "failure": "unexpected newline between function and ( of function call",
       "fix": undefined,
@@ -257,15 +257,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 16,
-        "line": 24,
-        "position": 334,
+        "line": 26,
+        "position": 356,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 33,
-        "position": 451,
+        "line": 35,
+        "position": 473,
       },
       "failure": "missing JSDoc @returns for function",
       "fix": undefined,
@@ -274,15 +274,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 31,
-        "position": 411,
+        "line": 33,
+        "position": 433,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 33,
-        "position": 451,
+        "line": 35,
+        "position": 473,
       },
       "failure": "missing JSDoc for parameter 'b'",
       "fix": undefined,
@@ -291,15 +291,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 31,
-        "position": 411,
+        "line": 33,
+        "position": 433,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 33,
-        "position": 451,
+        "line": 35,
+        "position": 473,
       },
       "failure": "JSDoc description does not satisfy the regex pattern",
       "fix": undefined,
@@ -308,15 +308,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 31,
-        "position": 411,
+        "line": 33,
+        "position": 433,
       },
     },
     Object {
       "endPosition": Object {
         "character": 14,
-        "line": 35,
-        "position": 510,
+        "line": 37,
+        "position": 532,
       },
       "failure": "Multiple spaces found before '==='.",
       "fix": undefined,
@@ -325,15 +325,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 11,
-        "line": 35,
-        "position": 507,
+        "line": 37,
+        "position": 529,
       },
     },
     Object {
       "endPosition": Object {
         "character": 24,
-        "line": 43,
-        "position": 607,
+        "line": 45,
+        "position": 629,
       },
       "failure": "Expected error to be handled",
       "fix": undefined,
@@ -342,15 +342,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 21,
-        "line": 43,
-        "position": 604,
+        "line": 45,
+        "position": 626,
       },
     },
     Object {
       "endPosition": Object {
         "character": 25,
-        "line": 47,
-        "position": 680,
+        "line": 49,
+        "position": 702,
       },
       "failure": "Requires a space",
       "fix": undefined,
@@ -359,15 +359,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 14,
-        "line": 47,
-        "position": 669,
+        "line": 49,
+        "position": 691,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 49,
-        "position": 698,
+        "line": 51,
+        "position": 720,
       },
       "failure": "Opening curly brace does not appear on the same line as controlling statement.",
       "fix": undefined,
@@ -376,20 +376,41 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 2,
-        "line": 49,
-        "position": 697,
+        "line": 51,
+        "position": 719,
       },
     },
     Object {
       "endPosition": Object {
         "character": 3,
-        "line": 39,
-        "position": 560,
+        "line": 10,
+        "position": 137,
+      },
+      "failure": "There should be no space after '['.",
+      "fix": Object {
+        "innerLength": 1,
+        "innerStart": 137,
+        "innerText": "",
+      },
+      "name": "./fixtures/eslint.ts",
+      "ruleName": "ter-computed-property-spacing",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 2,
+        "line": 10,
+        "position": 136,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 3,
+        "line": 41,
+        "position": 582,
       },
       "failure": "Expected indentation of 4 spaces but found 3.",
       "fix": Object {
         "innerLength": 3,
-        "innerStart": 557,
+        "innerStart": 579,
         "innerText": "    ",
       },
       "name": "./fixtures/eslint.ts",
@@ -397,20 +418,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 39,
-        "position": 557,
+        "line": 41,
+        "position": 579,
       },
     },
     Object {
       "endPosition": Object {
         "character": 2,
-        "line": 40,
-        "position": 567,
+        "line": 42,
+        "position": 589,
       },
       "failure": "Expected indentation of 5 spaces but found 2 tabs.",
       "fix": Object {
         "innerLength": 2,
-        "innerStart": 565,
+        "innerStart": 587,
         "innerText": "     ",
       },
       "name": "./fixtures/eslint.ts",
@@ -418,15 +439,70 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 40,
-        "position": 565,
+        "line": 42,
+        "position": 587,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 13,
+        "line": 10,
+        "position": 147,
+      },
+      "failure": "There should be no space after '{'",
+      "fix": Object {
+        "innerLength": 1,
+        "innerStart": 147,
+        "innerText": "",
+      },
+      "name": "./fixtures/eslint.ts",
+      "ruleName": "object-curly-spacing",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 12,
+        "line": 10,
+        "position": 146,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 2,
+        "line": 18,
+        "position": 191,
+      },
+      "failure": "Block must not be padded by blank lines.",
+      "fix": undefined,
+      "name": "./fixtures/eslint.ts",
+      "ruleName": "ter-padded-blocks",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 9,
+        "line": 16,
+        "position": 186,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 1,
+        "line": 42,
+        "position": 588,
+      },
+      "failure": "Unexpected tab character.",
+      "fix": undefined,
+      "name": "./fixtures/eslint.ts",
+      "ruleName": "ter-no-tabs",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 42,
+        "position": 587,
       },
     },
     Object {
       "endPosition": Object {
         "character": 15,
-        "line": 22,
-        "position": 280,
+        "line": 24,
+        "position": 302,
       },
       "failure": "Shadowed name: 'tru'",
       "fix": undefined,
@@ -435,15 +511,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 12,
-        "line": 22,
-        "position": 277,
+        "line": 24,
+        "position": 299,
       },
     },
     Object {
       "endPosition": Object {
         "character": 22,
-        "line": 23,
-        "position": 313,
+        "line": 25,
+        "position": 335,
       },
       "failure": "Array has a missing element.",
       "fix": undefined,
@@ -452,15 +528,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 21,
-        "line": 23,
-        "position": 312,
+        "line": 25,
+        "position": 334,
       },
     },
     Object {
       "endPosition": Object {
         "character": 43,
-        "line": 34,
-        "position": 495,
+        "line": 36,
+        "position": 517,
       },
       "failure": "Documentation must exist for exported functions.",
       "fix": undefined,
@@ -469,32 +545,32 @@ Object {
       "ruleSeverity": "WARNING",
       "startPosition": Object {
         "character": 0,
-        "line": 34,
-        "position": 452,
+        "line": 36,
+        "position": 474,
       },
     },
     Object {
       "endPosition": Object {
         "character": 24,
-        "line": 43,
-        "position": 607,
+        "line": 45,
+        "position": 629,
       },
-      "failure": "'err' is declared but never used.",
+      "failure": "'err' is declared but its value is never read.",
       "fix": undefined,
       "name": "./fixtures/eslint.ts",
       "ruleName": "no-unused-variable",
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 21,
-        "line": 43,
-        "position": 604,
+        "line": 45,
+        "position": 626,
       },
     },
     Object {
       "endPosition": Object {
         "character": 18,
-        "line": 32,
-        "position": 433,
+        "line": 34,
+        "position": 455,
       },
       "failure": "Type annotation in JSDoc is redundant in TypeScript code.",
       "fix": undefined,
@@ -503,8 +579,8 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 10,
-        "line": 32,
-        "position": 425,
+        "line": 34,
+        "position": 447,
       },
     },
   ],
@@ -514,25 +590,29 @@ Object {
 ERROR: ./fixtures/eslint.ts[3, 4]: unexpected constant condition
 ERROR: ./fixtures/eslint.ts[9, 19]: unexpected control character in regular expression
 ERROR: ./fixtures/eslint.ts[10, 9]: don't use empty classes in regular expressions
-ERROR: ./fixtures/eslint.ts[18, 3]: do not assign to the exception parameter
-ERROR: ./fixtures/eslint.ts[19, 7]: redundant double negation in an if statement condition
-ERROR: ./fixtures/eslint.ts[22, 5]: move function declaration to program root
-ERROR: ./fixtures/eslint.ts[23, 13]: Shadowed name: 'tru'
-ERROR: ./fixtures/eslint.ts[23, 19]: spaces are hard to count - use {3}
-ERROR: ./fixtures/eslint.ts[24, 22]: Array has a missing element.
-ERROR: ./fixtures/eslint.ts[25, 17]: unexpected newline between function and ( of function call
-ERROR: ./fixtures/eslint.ts[32, 1]: missing JSDoc @returns for function
-ERROR: ./fixtures/eslint.ts[32, 1]: missing JSDoc for parameter 'b'
-ERROR: ./fixtures/eslint.ts[32, 1]: JSDoc description does not satisfy the regex pattern
-ERROR: ./fixtures/eslint.ts[33, 11]: Type annotation in JSDoc is redundant in TypeScript code.
-WARNING: ./fixtures/eslint.ts[35, 1]: Documentation must exist for exported functions.
-ERROR: ./fixtures/eslint.ts[36, 12]: Multiple spaces found before '==='.
-ERROR: ./fixtures/eslint.ts[40, 1]: Expected indentation of 4 spaces but found 3.
-ERROR: ./fixtures/eslint.ts[41, 1]: Expected indentation of 5 spaces but found 2 tabs.
-ERROR: ./fixtures/eslint.ts[44, 22]: Expected error to be handled
-ERROR: ./fixtures/eslint.ts[44, 22]: 'err' is declared but never used.
-ERROR: ./fixtures/eslint.ts[48, 15]: Requires a space
-ERROR: ./fixtures/eslint.ts[50, 3]: Opening curly brace does not appear on the same line as controlling statement.
+ERROR: ./fixtures/eslint.ts[11, 3]: There should be no space after '['.
+ERROR: ./fixtures/eslint.ts[11, 13]: There should be no space after '{'
+ERROR: ./fixtures/eslint.ts[17, 10]: Block must not be padded by blank lines.
+ERROR: ./fixtures/eslint.ts[20, 3]: do not assign to the exception parameter
+ERROR: ./fixtures/eslint.ts[21, 7]: redundant double negation in an if statement condition
+ERROR: ./fixtures/eslint.ts[24, 5]: move function declaration to program root
+ERROR: ./fixtures/eslint.ts[25, 13]: Shadowed name: 'tru'
+ERROR: ./fixtures/eslint.ts[25, 19]: spaces are hard to count - use {3}
+ERROR: ./fixtures/eslint.ts[26, 22]: Array has a missing element.
+ERROR: ./fixtures/eslint.ts[27, 17]: unexpected newline between function and ( of function call
+ERROR: ./fixtures/eslint.ts[34, 1]: JSDoc description does not satisfy the regex pattern
+ERROR: ./fixtures/eslint.ts[34, 1]: missing JSDoc @returns for function
+ERROR: ./fixtures/eslint.ts[34, 1]: missing JSDoc for parameter 'b'
+ERROR: ./fixtures/eslint.ts[35, 11]: Type annotation in JSDoc is redundant in TypeScript code.
+WARNING: ./fixtures/eslint.ts[37, 1]: Documentation must exist for exported functions.
+ERROR: ./fixtures/eslint.ts[38, 12]: Multiple spaces found before '==='.
+ERROR: ./fixtures/eslint.ts[42, 1]: Expected indentation of 4 spaces but found 3.
+ERROR: ./fixtures/eslint.ts[43, 1]: Expected indentation of 5 spaces but found 2 tabs.
+ERROR: ./fixtures/eslint.ts[43, 1]: Unexpected tab character.
+ERROR: ./fixtures/eslint.ts[46, 22]: Expected error to be handled
+ERROR: ./fixtures/eslint.ts[46, 22]: 'err' is declared but its value is never read.
+ERROR: ./fixtures/eslint.ts[50, 15]: Requires a space
+ERROR: ./fixtures/eslint.ts[52, 3]: Opening curly brace does not appear on the same line as controlling statement.
 ",
   "warningCount": 1,
 }

@@ -13,6 +13,7 @@
   "no-duplicate-super": true,
   "no-duplicate-switch-case": true,
   "no-duplicate-variable": false,
+  "no-dynamic-delete": false,
   "no-empty": true,
   "no-eval": true,
   "no-for-in-array": true,
@@ -44,6 +45,5 @@
   "restrict-plus-operands": true,
   "switch-default": true,
   "triple-equals": [true, "allow-undefined-check"],
-  "typeof-compare": true,
   "use-isnan": true
 }
