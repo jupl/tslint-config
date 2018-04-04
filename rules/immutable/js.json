@@ -4,7 +4,7 @@
   "no-let": false,
   "no-object-mutation": true,
   "no-method-signature": false,
-  "no-delete": true,
+  "no-delete": false,
 
   "no-this": false,
   "no-class": false,
