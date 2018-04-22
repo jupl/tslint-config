@@ -123,3 +123,5 @@ default:
 }
 
 this = 1
+
+e`abc`

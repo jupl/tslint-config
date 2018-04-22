@@ -34,7 +34,7 @@
   "no-unused-expression": [
     true,
     "allow-fast-null-checks",
-    "allow-tagged-templates"
+    "allow-tagged-template"
   ],
   "no-use-before-declare": false,
   "no-var-keyword": true,
