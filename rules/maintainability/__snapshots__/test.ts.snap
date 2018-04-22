@@ -2,7 +2,7 @@
 
 exports[`Maintainability rules should be valid 1`] = `
 Object {
-  "errorCount": 21,
+  "errorCount": 22,
   "failures": Array [
     Object {
       "endPosition": Object {
@@ -100,13 +100,13 @@ Object {
     Object {
       "endPosition": Object {
         "character": 1,
-        "line": 419,
-        "position": 2728,
+        "line": 425,
+        "position": 2799,
       },
       "failure": "file should end with a newline",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 2728,
+        "innerStart": 2799,
         "innerText": "
 ",
       },
@@ -115,8 +115,8 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 1,
-        "line": 419,
-        "position": 2728,
+        "line": 425,
+        "position": 2799,
       },
     },
     Object {
@@ -160,18 +160,18 @@ Object {
     Object {
       "endPosition": Object {
         "character": 1,
-        "line": 419,
-        "position": 2728,
+        "line": 425,
+        "position": 2799,
       },
-      "failure": "This file has 420 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts",
+      "failure": "This file has 426 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts",
       "fix": undefined,
       "name": "./fixtures/maintainability.ts",
       "ruleName": "max-file-line-count",
       "ruleSeverity": "WARNING",
       "startPosition": Object {
         "character": 0,
-        "line": 419,
-        "position": 2727,
+        "line": 425,
+        "position": 2798,
       },
     },
     Object {
@@ -374,6 +374,27 @@ Object {
     },
     Object {
       "endPosition": Object {
+        "character": 11,
+        "line": 70,
+        "position": 996,
+      },
+      "failure": "Forbidden trailing comma",
+      "fix": Object {
+        "innerLength": 1,
+        "innerStart": 995,
+        "innerText": "",
+      },
+      "name": "./fixtures/maintainability.ts",
+      "ruleName": "trailing-comma",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 10,
+        "line": 70,
+        "position": 995,
+      },
+    },
+    Object {
+      "endPosition": Object {
         "character": 20,
         "line": 64,
         "position": 915,
@@ -491,8 +512,9 @@ ERROR: ./fixtures/maintainability.ts[64, 14]: There should be no space before \\
 ERROR: ./fixtures/maintainability.ts[65, 10]: Shadowed name: 'a'
 ERROR: ./fixtures/maintainability.ts[65, 19]: Unnecessary trailing comma
 ERROR: ./fixtures/maintainability.ts[65, 20]: missing whitespace
-WARNING: ./fixtures/maintainability.ts[420, 1]: This file has 420 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts
-ERROR: ./fixtures/maintainability.ts[420, 2]: file should end with a newline
+ERROR: ./fixtures/maintainability.ts[71, 11]: Forbidden trailing comma
+WARNING: ./fixtures/maintainability.ts[426, 1]: This file has 426 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts
+ERROR: ./fixtures/maintainability.ts[426, 2]: file should end with a newline
 ",
   "warningCount": 3,
 }

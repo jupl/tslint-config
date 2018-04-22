@@ -65,6 +65,12 @@ export const never = {
   func: (a: number,) => console.log(a),
 }
 
+/** Comma in spread */
+export const {
+  array,
+  ...stuff,
+} = always
+
 /** Long line */
 export const long = [
   1,
