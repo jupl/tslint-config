@@ -1,3 +1,4 @@
+// @ts-check
 'use strict'
 
 const rules = [
@@ -9,6 +10,6 @@ const jsRules = [
 
 module.exports = { // tslint:disable-line:no-object-mutation
   extends: 'tslint-react',
-  rules: Object.assign({}, ...jsRules, ...rules),
   jsRules: Object.assign({}, ...jsRules),
+  rules: Object.assign({}, ...jsRules, ...rules),
 }

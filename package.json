@@ -1,6 +1,6 @@
 {
   "name": "@jupl/tslint-config",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Personal TSLint configuration",
   "author": "jupl",
   "license": "MIT",
@@ -14,27 +14,20 @@
   },
   "main": "./index.js",
   "scripts": {
-    "lint": "npm run lint:file -- '*.{t,j}s' 'rules/**/*.test.{t,j}s'",
+    "lint": "tsc --project tsconfig.lint.json && npm run lint:file -- '*.{t,j}s' 'rules/**/*{t,j}s'",
     "lint:file": "tslint --project tsconfig.json",
-    "test": "jest",
+    "test": "jest --config .jestrc.json",
     "pretest": "npm run lint"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts",
-      "tsx"
-    ],
-    "testRegex": "(/__tests__/.*|[./](test|spec))\\.tsx?$",
-    "transform": {
-      ".tsx?": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    }
-  },
   "peerDependencies": {
-    "tslint": ">=5.9.0",
-    "tslint-eslint-rules": ">=5.1.0",
-    "tslint-immutable": ">=4.5.0"
+    "tslint": "^5.9.0",
+    "tslint-eslint-rules": "^5.1.0",
+    "tslint-immutable": "^4.5.0",
+    "tslint-sonarts": "^1.6.0",
+    "tslint-react": "^3.5.1"
+  },
+  "optionalDependencies": {
+    "tslint-react": "^3.5.1"
   },
   "devDependencies": {
     "@types/jest": "^22.2.2",
@@ -51,6 +44,7 @@
     "tslint-immutable": "^4.5.3",
     "tslint-language-service": "^0.9.9",
     "tslint-react": "^3.5.1",
+    "tslint-sonarts": "^1.6.0",
     "typescript": "^2.8.1"
   }
 }

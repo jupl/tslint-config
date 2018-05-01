@@ -2,25 +2,8 @@
 
 exports[`Immutable rules should be valid 1`] = `
 Object {
-  "errorCount": 3,
+  "errorCount": 2,
   "failures": Array [
-    Object {
-      "endPosition": Object {
-        "character": 15,
-        "line": 2,
-        "position": 45,
-      },
-      "failure": "Only the same kind of members allowed in interfaces.",
-      "fix": Array [],
-      "name": "./fixtures/immutable.ts",
-      "ruleName": "no-mixed-interface",
-      "ruleSeverity": "ERROR",
-      "startPosition": Object {
-        "character": 2,
-        "line": 2,
-        "position": 32,
-      },
-    },
     Object {
       "endPosition": Object {
         "character": 8,
@@ -59,7 +42,6 @@ Object {
   "fixes": Array [],
   "format": "prose",
   "output": "
-ERROR: ./fixtures/immutable.ts[3, 3]: Only the same kind of members allowed in interfaces.
 ERROR: ./fixtures/immutable.ts[7, 1]: Modifying properties of existing object not allowed.
 ERROR: ./fixtures/immutable.ts[8, 1]: Modifying properties of existing object not allowed.
 ",

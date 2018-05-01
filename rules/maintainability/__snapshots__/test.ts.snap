@@ -227,6 +227,40 @@ Object {
     },
     Object {
       "endPosition": Object {
+        "character": 7,
+        "line": 52,
+        "position": 752,
+      },
+      "failure": "The key 'array' is not sorted alphabetically",
+      "fix": undefined,
+      "name": "./fixtures/maintainability.ts",
+      "ruleName": "object-literal-sort-keys",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 2,
+        "line": 52,
+        "position": 747,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 7,
+        "line": 63,
+        "position": 886,
+      },
+      "failure": "The key 'array' is not sorted alphabetically",
+      "fix": undefined,
+      "name": "./fixtures/maintainability.ts",
+      "ruleName": "object-literal-sort-keys",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 2,
+        "line": 63,
+        "position": 881,
+      },
+    },
+    Object {
+      "endPosition": Object {
         "character": 5,
         "line": 45,
         "position": 669,
@@ -417,40 +451,6 @@ Object {
     Object {
       "endPosition": Object {
         "character": 11,
-        "line": 4,
-        "position": 105,
-      },
-      "failure": "'a' is declared but its value is never read.",
-      "fix": undefined,
-      "name": "./fixtures/maintainability.ts",
-      "ruleName": "no-unused-variable",
-      "ruleSeverity": "ERROR",
-      "startPosition": Object {
-        "character": 0,
-        "line": 4,
-        "position": 94,
-      },
-    },
-    Object {
-      "endPosition": Object {
-        "character": 11,
-        "line": 5,
-        "position": 120,
-      },
-      "failure": "'a' is declared but its value is never read.",
-      "fix": undefined,
-      "name": "./fixtures/maintainability.ts",
-      "ruleName": "no-unused-variable",
-      "ruleSeverity": "ERROR",
-      "startPosition": Object {
-        "character": 0,
-        "line": 5,
-        "position": 109,
-      },
-    },
-    Object {
-      "endPosition": Object {
-        "character": 11,
         "line": 5,
         "position": 120,
       },
@@ -490,8 +490,6 @@ Object {
   "fixes": Array [],
   "format": "prose",
   "output": "
-ERROR: ./fixtures/maintainability.ts[5, 1]: 'a' is declared but its value is never read.
-ERROR: ./fixtures/maintainability.ts[6, 1]: 'a' is declared but its value is never read.
 ERROR: ./fixtures/maintainability.ts[6, 11]: Mergeable namespace 'a' found. Merge its contents with the namespace on line 5.
 WARNING: ./fixtures/maintainability.ts[13, 37]: ServerRequest is deprecated: Use IncomingMessage
 ERROR: ./fixtures/maintainability.ts[16, 1]: Expected linebreak to be 'LF'
@@ -502,11 +500,13 @@ ERROR: ./fixtures/maintainability.ts[41, 1]: Use of default exports is forbidden
 ERROR: ./fixtures/maintainability.ts[43, 1]: Multiple imports from 'net' can be combined into one.
 ERROR: ./fixtures/maintainability.ts[46, 5]: Identifier 'g' is never reassigned; use 'const' instead of 'let'.
 ERROR: ./fixtures/maintainability.ts[51, 6]: Missing trailing comma
+ERROR: ./fixtures/maintainability.ts[53, 3]: The key 'array' is not sorted alphabetically
 ERROR: ./fixtures/maintainability.ts[54, 6]: Missing trailing comma
 ERROR: ./fixtures/maintainability.ts[57, 5]: Shadowed name: 'a'
 ERROR: ./fixtures/maintainability.ts[57, 14]: Missing trailing comma
 ERROR: ./fixtures/maintainability.ts[63, 13]: Unnecessary trailing comma
 ERROR: ./fixtures/maintainability.ts[63, 15]: There should be no space before '}'
+ERROR: ./fixtures/maintainability.ts[64, 3]: The key 'array' is not sorted alphabetically
 ERROR: ./fixtures/maintainability.ts[64, 12]: Unnecessary trailing comma
 ERROR: ./fixtures/maintainability.ts[64, 14]: There should be no space before \\"]\\"
 ERROR: ./fixtures/maintainability.ts[65, 10]: Shadowed name: 'a'

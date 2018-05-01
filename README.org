@@ -9,11 +9,26 @@ Personal [[https://palantir.github.io/tslint/][TSLint]] [[http://eslint.org/docs
 
 ** Installation
 #+BEGIN_EXAMPLE
-npm install @jupl/tslint-config tslint tslint-eslint-rules tslint-immutable
-npm install tslint-react # Required for JSX
+npm install @jupl/tslint-config tslint
+npm install tslint-eslint-rules tslint-immutable tslint-sonarts
+npm install tslint-react # Only required for JSX
 #+END_EXAMPLE
 
 ** Usage
+Add to =tsconfig.json=:
+#+BEGIN_SRC json
+{
+  "compilerOptions": {
+    ...
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
+#+END_SRC
+
 Add to =tslint.json=:
 #+BEGIN_SRC json
 {

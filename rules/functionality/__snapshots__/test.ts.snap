@@ -2,8 +2,52 @@
 
 exports[`Immutable rules should be valid 1`] = `
 Object {
-  "errorCount": 38,
+  "errorCount": 39,
   "failures": Array [
+    Object {
+      "cost": undefined,
+      "endPosition": Object {
+        "character": 48,
+        "line": 49,
+        "position": 735,
+      },
+      "failure": "Remove this useless assignment to local variable \\"x\\".",
+      "name": "./fixtures/functionality.ts",
+      "ruleName": "no-dead-store",
+      "ruleSeverity": "error",
+      "secondaryLocations": Array [],
+      "startPosition": Object {
+        "character": 47,
+        "line": 49,
+        "position": 734,
+      },
+    },
+    Object {
+      "cost": undefined,
+      "endPosition": Object {
+        "character": 14,
+        "line": 77,
+        "position": 1105,
+      },
+      "failure": "This case duplicates the one on line 72",
+      "name": "./fixtures/functionality.ts",
+      "ruleName": "no-identical-conditions",
+      "ruleSeverity": "error",
+      "secondaryLocations": Array [
+        Object {
+          "endCol": 14,
+          "endLine": 71,
+          "message": "Original",
+          "startCol": 5,
+          "startLine": 71,
+        },
+      ],
+      "startPosition": Object {
+        "character": 5,
+        "line": 77,
+        "position": 1096,
+      },
+    },
     Object {
       "endPosition": Object {
         "character": 21,
@@ -252,23 +296,6 @@ Object {
         "character": 4,
         "line": 65,
         "position": 948,
-      },
-    },
-    Object {
-      "endPosition": Object {
-        "character": 14,
-        "line": 77,
-        "position": 1105,
-      },
-      "failure": "Duplicate switch case: ''develop''.",
-      "fix": undefined,
-      "name": "./fixtures/functionality.ts",
-      "ruleName": "no-duplicate-switch-case",
-      "ruleSeverity": "ERROR",
-      "startPosition": Object {
-        "character": 5,
-        "line": 77,
-        "position": 1096,
       },
     },
     Object {
@@ -706,15 +733,16 @@ ERROR: ./fixtures/functionality.ts[46, 3]: unexpected label on statement
 ERROR: ./fixtures/functionality.ts[47, 15]: Access to arguments.callee is forbidden
 ERROR: ./fixtures/functionality.ts[48, 15]: Forbidden bitwise operation
 ERROR: ./fixtures/functionality.ts[48, 15]: Forbidden bitwise operation
+ERROR: ./fixtures/functionality.ts[50, 48]: Remove this useless assignment to local variable \\"x\\".
 ERROR: ./fixtures/functionality.ts[50, 48]: Assignments in conditional expressions are forbidden
 ERROR: ./fixtures/functionality.ts[51, 17]: Forbidden constructor, use a literal or simple function call instead
 ERROR: ./fixtures/functionality.ts[52, 5]: Use of debugger statements is forbidden
 ERROR: ./fixtures/functionality.ts[66, 5]: Multiple calls to 'super()' found. It must be called only once.
-ERROR: ./fixtures/functionality.ts[78, 6]: Duplicate switch case: ''develop''.
+ERROR: ./fixtures/functionality.ts[78, 6]: This case duplicates the one on line 72
 ERROR: ./fixtures/functionality.ts[84, 43]: block is empty
 ERROR: ./fixtures/functionality.ts[86, 1]: forbidden eval
-ERROR: ./fixtures/functionality.ts[88, 1]: for-in loops over arrays are forbidden. Use for-of or array.forEach instead.
 ERROR: ./fixtures/functionality.ts[88, 1]: for (... in ...) statements must be filtered with an if statement
+ERROR: ./fixtures/functionality.ts[88, 1]: for-in loops over arrays are forbidden. Use for-of or array.forEach instead.
 ERROR: ./fixtures/functionality.ts[92, 8]: Module 'acorn' is not listed as dependency in package.json
 ERROR: ./fixtures/functionality.ts[94, 17]: Interpolation will only work for template strings.
 ERROR: ./fixtures/functionality.ts[95, 13]: the \\"this\\" keyword is disallowed outside of a class body

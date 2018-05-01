@@ -1,6 +1,9 @@
+// @ts-check
 'use strict'
 
 const rules = [
+  require('./rules/bug'),
+  require('./rules/code-smell'),
   require('./rules/eslint'),
   require('./rules/immutable'),
   require('./rules/typescript'),
@@ -9,6 +12,8 @@ const rules = [
   require('./rules/style'),
 ]
 const jsRules = [
+  require('./rules/bug/js'),
+  require('./rules/code-smell/js'),
   require('./rules/eslint/js'),
   require('./rules/immutable/js'),
   require('./rules/typescript/js'),
@@ -21,7 +26,8 @@ module.exports = { // tslint:disable-line:no-object-mutation
   extends: [
     'tslint-eslint-rules',
     'tslint-immutable',
+    'tslint-sonarts',
   ],
-  rules: Object.assign({}, ...jsRules, ...rules),
   jsRules: Object.assign({}, ...jsRules),
+  rules: Object.assign({}, ...jsRules, ...rules),
 }
