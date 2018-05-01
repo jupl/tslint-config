@@ -2,8 +2,7 @@
 'use strict'
 
 module.exports = { // tslint:disable-line:no-object-mutation
-  // covered by bug/no-identical-conditions
-  'no-all-duplicated-branches': false,
+  'no-all-duplicated-branches': true,
   'no-case-with-or': true,
   'no-collection-size-mischeck': true,
   'no-element-overwrite': true,
