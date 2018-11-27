@@ -2,7 +2,8 @@
 'use strict'
 
 module.exports = { // tslint:disable-line:no-object-mutation
-  'no-array-mutation': [true, 'ignore-mutation-following-accessor'],
+  // until ignore-mutation-following-accessor is fixed
+  'no-array-mutation': false,
   // classes may be necessary
   'no-class': false,
   // valid use cases(?)
