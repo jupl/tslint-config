@@ -15,8 +15,6 @@ module.exports = { // tslint:disable-line:no-object-mutation
     true,
     'allow-null-union',
     'allow-undefined-union',
-    'allow-string',
-    'allow-number',
     'allow-mix',
   ],
   'strict-type-predicates': true,

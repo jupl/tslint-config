@@ -2,7 +2,7 @@
 
 exports[`Immutable rules should be valid 1`] = `
 Object {
-  "errorCount": 39,
+  "errorCount": 40,
   "failures": Array [
     Object {
       "cost": undefined,
@@ -677,6 +677,23 @@ Object {
     },
     Object {
       "endPosition": Object {
+        "character": 30,
+        "line": 24,
+        "position": 321,
+      },
+      "failure": "This type is not allowed in the operand for the '!' operator because it could be a string. Allowed types are boolean, null-union, or undefined-union.",
+      "fix": undefined,
+      "name": "./fixtures/functionality.ts",
+      "ruleName": "strict-boolean-expressions",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 14,
+        "line": 24,
+        "position": 305,
+      },
+    },
+    Object {
+      "endPosition": Object {
         "character": 35,
         "line": 27,
         "position": 408,
@@ -725,6 +742,7 @@ ERROR: ./fixtures/functionality.ts[14, 3]: Interfaces cannot be constructed, onl
 ERROR: ./fixtures/functionality.ts[18, 18]: Type assertion on object literals is forbidden, use a type annotation instead.
 ERROR: ./fixtures/functionality.ts[20, 1]: missing JSDoc @returns for function
 ERROR: ./fixtures/functionality.ts[22, 10]: Avoid referencing unbound methods which may cause unintentional scoping of 'this'.
+ERROR: ./fixtures/functionality.ts[25, 15]: This type is not allowed in the operand for the '!' operator because it could be a string. Allowed types are boolean, null-union, or undefined-union.
 ERROR: ./fixtures/functionality.ts[28, 1]: Expression is always false.
 ERROR: ./fixtures/functionality.ts[34, 3]: This is the default value for this type parameter, so it can be omitted.
 ERROR: ./fixtures/functionality.ts[36, 1]: Calls to 'alert' are not allowed.
