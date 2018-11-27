@@ -2,7 +2,7 @@
 
 exports[`JSX rules should be valid 1`] = `
 Object {
-  "errorCount": 11,
+  "errorCount": 12,
   "failures": Array [
     Object {
       "endPosition": Object {
@@ -62,7 +62,11 @@ Object {
         "position": 122,
       },
       "failure": "Value must be omitted for boolean attributes",
-      "fix": undefined,
+      "fix": Object {
+        "innerLength": 15,
+        "innerStart": 107,
+        "innerText": "disabled",
+      },
       "name": "./fixtures/jsx.tsx",
       "ruleName": "jsx-boolean-value",
       "ruleSeverity": "ERROR",
@@ -208,6 +212,23 @@ Object {
         "position": 1096,
       },
     },
+    Object {
+      "endPosition": Object {
+        "character": 30,
+        "line": 60,
+        "position": 1157,
+      },
+      "failure": "Self-closing JSX elements must have a space before the '/>' part",
+      "fix": undefined,
+      "name": "./fixtures/jsx.tsx",
+      "ruleName": "jsx-space-before-trailing-slash",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 24,
+        "line": 60,
+        "position": 1151,
+      },
+    },
   ],
   "fixes": Array [],
   "format": "prose",
@@ -224,6 +245,7 @@ ERROR: ./fixtures/jsx.tsx[43, 8]: Multiline JS expressions inside JSX are forbid
 ERROR: ./fixtures/jsx.tsx[52, 21]: Pass a callback to ref prop instead of a string literal
 ERROR: ./fixtures/jsx.tsx[57, 25]: JSX elements with no children must be self-closing
 ERROR: ./fixtures/jsx.tsx[57, 25]: Multiline JSX elements must be wrapped in parentheses
+ERROR: ./fixtures/jsx.tsx[61, 25]: Self-closing JSX elements must have a space before the '/>' part
 ",
   "warningCount": 1,
 }

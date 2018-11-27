@@ -436,12 +436,17 @@ Object {
     },
     Object {
       "endPosition": Object {
-        "character": 2,
-        "line": 18,
-        "position": 191,
+        "character": 10,
+        "line": 16,
+        "position": 187,
       },
       "failure": "Block must not be padded by blank lines.",
-      "fix": undefined,
+      "fix": Object {
+        "innerLength": 2,
+        "innerStart": 187,
+        "innerText": "
+",
+      },
       "name": "./fixtures/eslint.ts",
       "ruleName": "ter-padded-blocks",
       "ruleSeverity": "ERROR",
@@ -609,15 +614,15 @@ ERROR: ./fixtures/eslint.ts[25, 19]: spaces are hard to count - use {3}
 ERROR: ./fixtures/eslint.ts[26, 22]: Array has a missing element.
 ERROR: ./fixtures/eslint.ts[27, 17]: unexpected newline between function and ( of function call
 ERROR: ./fixtures/eslint.ts[27, 20]: Unexpected newline between function name and paren.
-ERROR: ./fixtures/eslint.ts[34, 1]: JSDoc description does not satisfy the regex pattern
-ERROR: ./fixtures/eslint.ts[34, 1]: missing JSDoc for parameter 'b'
 ERROR: ./fixtures/eslint.ts[34, 1]: missing JSDoc @returns for function
+ERROR: ./fixtures/eslint.ts[34, 1]: missing JSDoc for parameter 'b'
+ERROR: ./fixtures/eslint.ts[34, 1]: JSDoc description does not satisfy the regex pattern
 ERROR: ./fixtures/eslint.ts[35, 11]: Type annotation in JSDoc is redundant in TypeScript code.
 WARNING: ./fixtures/eslint.ts[37, 1]: Documentation must exist for exported functions.
 ERROR: ./fixtures/eslint.ts[38, 12]: Multiple spaces found before '==='.
 ERROR: ./fixtures/eslint.ts[42, 1]: Expected indentation of 4 spaces but found 3.
-ERROR: ./fixtures/eslint.ts[43, 1]: Unexpected tab character.
 ERROR: ./fixtures/eslint.ts[43, 1]: Expected indentation of 5 spaces but found 2 tabs.
+ERROR: ./fixtures/eslint.ts[43, 1]: Unexpected tab character.
 ERROR: ./fixtures/eslint.ts[43, 1]: 2 space indentation expected
 ERROR: ./fixtures/eslint.ts[50, 15]: Requires a space
 ERROR: ./fixtures/eslint.ts[52, 3]: Opening curly brace does not appear on the same line as controlling statement.

@@ -56,3 +56,6 @@ export class Component2 extends React.Component {
 /** Element 5 */
 export const element5 = <div>
 </div>
+
+/** Element 6 */
+export const element6 = <div/>

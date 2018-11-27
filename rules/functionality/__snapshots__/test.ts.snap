@@ -49,6 +49,24 @@ Object {
       },
     },
     Object {
+      "cost": undefined,
+      "endPosition": Object {
+        "character": 22,
+        "line": 1,
+        "position": 52,
+      },
+      "failure": "Refactor this redundant 'await' on a non-promise.",
+      "name": "./fixtures/functionality.ts",
+      "ruleName": "no-invalid-await",
+      "ruleSeverity": "error",
+      "secondaryLocations": Array [],
+      "startPosition": Object {
+        "character": 2,
+        "line": 1,
+        "position": 32,
+      },
+    },
+    Object {
       "endPosition": Object {
         "character": 21,
         "line": 19,
@@ -659,23 +677,6 @@ Object {
     },
     Object {
       "endPosition": Object {
-        "character": 30,
-        "line": 24,
-        "position": 321,
-      },
-      "failure": "This type is not allowed in the operand for the '!' operator because it could be undefined. Only booleans are allowed.",
-      "fix": undefined,
-      "name": "./fixtures/functionality.ts",
-      "ruleName": "strict-boolean-expressions",
-      "ruleSeverity": "ERROR",
-      "startPosition": Object {
-        "character": 14,
-        "line": 24,
-        "position": 305,
-      },
-    },
-    Object {
-      "endPosition": Object {
         "character": 35,
         "line": 27,
         "position": 408,
@@ -716,6 +717,7 @@ Object {
   "fixes": Array [],
   "format": "prose",
   "output": "
+ERROR: ./fixtures/functionality.ts[2, 3]: Refactor this redundant 'await' on a non-promise.
 ERROR: ./fixtures/functionality.ts[2, 3]: Invalid 'await' of a non-Promise value.
 ERROR: ./fixtures/functionality.ts[2, 9]: Expression has type \`void\`. Put it on its own line as a statement.
 ERROR: ./fixtures/functionality.ts[6, 1]: Promises must be handled appropriately
@@ -723,7 +725,6 @@ ERROR: ./fixtures/functionality.ts[14, 3]: Interfaces cannot be constructed, onl
 ERROR: ./fixtures/functionality.ts[18, 18]: Type assertion on object literals is forbidden, use a type annotation instead.
 ERROR: ./fixtures/functionality.ts[20, 1]: missing JSDoc @returns for function
 ERROR: ./fixtures/functionality.ts[22, 10]: Avoid referencing unbound methods which may cause unintentional scoping of 'this'.
-ERROR: ./fixtures/functionality.ts[25, 15]: This type is not allowed in the operand for the '!' operator because it could be undefined. Only booleans are allowed.
 ERROR: ./fixtures/functionality.ts[28, 1]: Expression is always false.
 ERROR: ./fixtures/functionality.ts[34, 3]: This is the default value for this type parameter, so it can be omitted.
 ERROR: ./fixtures/functionality.ts[36, 1]: Calls to 'alert' are not allowed.

@@ -1,6 +1,3 @@
-import {ServerRequest} from 'http'
-import {Socket} from 'net'
-
 // tslint:disable:no-namespace
 namespace a {}
 namespace a {}
@@ -10,7 +7,7 @@ namespace a {}
  * @param s Required arg
  * @return Deprecated item
  */
-export const b = (s: Socket) => new ServerRequest(s)
+export const b = new Buffer(3)
 
 /** CRLF */
 export const c = 1

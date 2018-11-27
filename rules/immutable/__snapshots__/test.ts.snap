@@ -2,7 +2,7 @@
 
 exports[`Immutable rules should be valid 1`] = `
 Object {
-  "errorCount": 2,
+  "errorCount": 5,
   "failures": Array [
     Object {
       "endPosition": Object {
@@ -38,12 +38,66 @@ Object {
         "position": 75,
       },
     },
+    Object {
+      "endPosition": Object {
+        "character": 8,
+        "line": 6,
+        "position": 74,
+      },
+      "failure": "Mutating an array is not allowed.",
+      "fix": Array [],
+      "name": "./fixtures/immutable.ts",
+      "ruleName": "no-array-mutation",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 6,
+        "position": 66,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 11,
+        "line": 7,
+        "position": 86,
+      },
+      "failure": "Mutating an array is not allowed.",
+      "fix": Array [],
+      "name": "./fixtures/immutable.ts",
+      "ruleName": "no-array-mutation",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 7,
+        "position": 75,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 9,
+        "line": 8,
+        "position": 96,
+      },
+      "failure": "Mutating an array is not allowed.",
+      "fix": Array [],
+      "name": "./fixtures/immutable.ts",
+      "ruleName": "no-array-mutation",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 0,
+        "line": 8,
+        "position": 87,
+      },
+    },
   ],
   "fixes": Array [],
   "format": "prose",
   "output": "
 ERROR: ./fixtures/immutable.ts[7, 1]: Modifying properties of existing object not allowed.
+ERROR: ./fixtures/immutable.ts[7, 1]: Mutating an array is not allowed.
 ERROR: ./fixtures/immutable.ts[8, 1]: Modifying properties of existing object not allowed.
+ERROR: ./fixtures/immutable.ts[8, 1]: Mutating an array is not allowed.
+ERROR: ./fixtures/immutable.ts[9, 1]: Mutating an array is not allowed.
 ",
   "warningCount": 0,
 }
