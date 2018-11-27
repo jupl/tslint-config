@@ -2,6 +2,7 @@
 'use strict'
 
 module.exports = { // tslint:disable-line:no-object-mutation
+  'no-array-mutation': true,
   // classes may be necessary
   'no-class': false,
   // valid use cases(?)
@@ -21,6 +22,8 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'no-object-mutation': true,
   // classes may be necessary
   'no-this': false,
+  'no-throw': false,
+  'no-try': false,
   // covered by immutable/no-object-mutation
   'readonly-array': false,
   // covered by immutable/no-object-mutation

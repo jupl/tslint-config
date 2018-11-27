@@ -11,9 +11,14 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'no-unbound-method': true,
   // javascript interop
   'no-unsafe-any': false,
-  // covered by typescript's noUnusedLocals and noUnusedParameters
-  'no-unused-variable': false,
-  'strict-boolean-expressions': true,
+  'strict-boolean-expressions': [
+    true,
+    'allow-null-union',
+    'allow-undefined-union',
+    'allow-string',
+    'allow-number',
+    'allow-mix',
+  ],
   'strict-type-predicates': true,
   'use-default-type-parameter': true,
 }

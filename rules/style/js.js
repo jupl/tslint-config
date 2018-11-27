@@ -25,6 +25,7 @@ module.exports = { // tslint:disable-line:no-object-mutation
   encoding: true,
   // can vary per project
   'file-header': false,
+  'file-name-casing': [true, 'kebab-case'],
   'import-spacing': true,
   'jsdoc-format': [true, 'check-multiline-start'],
   'new-parens': true,

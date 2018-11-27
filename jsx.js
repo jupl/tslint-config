@@ -1,4 +1,5 @@
 // @ts-check
+// tslint:disable:no-require-imports
 'use strict'
 
 const rules = [

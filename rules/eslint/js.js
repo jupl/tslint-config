@@ -43,6 +43,8 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'ter-no-irregular-whitespace': false,
   // can vary per project
   'ter-no-mixed-spaces-and-tabs': false,
+  'ter-no-proto': true,
+  'ter-no-script-url': true,
   // covered by functionality/no-sparse-arrays
   'ter-no-sparse-arrays': false,
   'ter-no-tabs': true,

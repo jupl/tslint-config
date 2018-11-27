@@ -13,8 +13,7 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'max-line-length': {severity: 'warn', options: 79},
   'no-default-export': true,
   'no-duplicate-imports': true,
-  // until dynamic import is more readily available
-  'no-require-imports': false,
+  'no-require-imports': true,
   'object-literal-sort-keys': [true, 'shorthand-first'],
   'prefer-const': true,
   'trailing-comma': [true, {

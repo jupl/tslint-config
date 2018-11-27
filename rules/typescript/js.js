@@ -21,7 +21,7 @@ module.exports = { // tslint:disable-line:no-object-mutation
   ]}],
   // import things like normalize.css
   'no-import-side-effect': false,
-  'no-magic-numbers': {severity: 'warn', options: [-1, 0, 1, 10]},
+  'no-magic-numbers': false,
   'no-parameter-reassignment': true,
   'no-reference': true,
   'only-arrow-functions': [

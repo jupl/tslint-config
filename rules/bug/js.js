@@ -8,9 +8,11 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'no-element-overwrite': true,
   'no-empty-destructuring': true,
   'no-identical-conditions': true,
+  'no-identical-expressions': true,
   // covered by typescript/no-parameter-reassignment
   'no-ignored-initial-value': false,
   'no-ignored-return': true,
+  'no-in-misuse': true,
   'no-misleading-array-reverse': true,
   'no-misspelled-operator': true,
   'no-self-assignment': true,
