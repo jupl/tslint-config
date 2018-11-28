@@ -1,3 +1,8 @@
+import {
+  basename,
+  sep
+} from 'path'
+
 // tslint:disable:no-namespace
 namespace a {}
 namespace a {}

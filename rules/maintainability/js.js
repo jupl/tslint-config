@@ -20,7 +20,9 @@ module.exports = { // tslint:disable-line:no-object-mutation
     esSpecCompliant: true,
     multiline: {
       arrays: 'always',
+      exports: 'always',
       functions: 'always',
+      imports: 'always',
       objects: 'always',
       typeLiterals: 'ignore',
     },
