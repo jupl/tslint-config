@@ -2,18 +2,18 @@
 
 exports[`Maintainability rules should be valid 1`] = `
 Object {
-  "errorCount": 21,
+  "errorCount": 22,
   "failures": Array [
     Object {
       "endPosition": Object {
         "character": 14,
-        "line": 60,
-        "position": 808,
+        "line": 65,
+        "position": 850,
       },
       "failure": "There should be no space before \\"]\\"",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 806,
+        "innerStart": 848,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -21,20 +21,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 13,
-        "line": 60,
-        "position": 807,
+        "line": 65,
+        "position": 849,
       },
     },
     Object {
       "endPosition": Object {
         "character": 15,
-        "line": 59,
-        "position": 792,
+        "line": 64,
+        "position": 834,
       },
       "failure": "There should be no space before '}'",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 790,
+        "innerStart": 832,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -42,15 +42,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 14,
-        "line": 59,
-        "position": 791,
+        "line": 64,
+        "position": 833,
       },
     },
     Object {
       "endPosition": Object {
         "character": 5,
-        "line": 53,
-        "position": 697,
+        "line": 58,
+        "position": 739,
       },
       "failure": "Shadowed name: 'a'",
       "fix": undefined,
@@ -59,15 +59,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 4,
-        "line": 53,
-        "position": 696,
+        "line": 58,
+        "position": 738,
       },
     },
     Object {
       "endPosition": Object {
         "character": 10,
-        "line": 61,
-        "position": 820,
+        "line": 66,
+        "position": 862,
       },
       "failure": "Shadowed name: 'a'",
       "fix": undefined,
@@ -76,15 +76,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 9,
-        "line": 61,
-        "position": 819,
+        "line": 66,
+        "position": 861,
       },
     },
     Object {
       "endPosition": Object {
         "character": 27,
-        "line": 9,
-        "position": 169,
+        "line": 14,
+        "position": 211,
       },
       "failure": "Buffer is deprecated: since v10.0.0 - Use \`Buffer.alloc()\` instead (also see \`Buffer.allocUnsafe()\`).",
       "fix": undefined,
@@ -93,20 +93,20 @@ Object {
       "ruleSeverity": "WARNING",
       "startPosition": Object {
         "character": 21,
-        "line": 9,
-        "position": 163,
+        "line": 14,
+        "position": 205,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
-        "line": 422,
-        "position": 2714,
+        "line": 427,
+        "position": 2756,
       },
       "failure": "file should end with a newline",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 2714,
+        "innerStart": 2756,
         "innerText": "
 ",
       },
@@ -115,20 +115,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 1,
-        "line": 422,
-        "position": 2714,
+        "line": 427,
+        "position": 2756,
       },
     },
     Object {
       "endPosition": Object {
         "character": 18,
-        "line": 12,
-        "position": 204,
+        "line": 17,
+        "position": 246,
       },
       "failure": "Expected linebreak to be 'LF'",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 204,
+        "innerStart": 246,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -136,15 +136,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 12,
-        "position": 186,
+        "line": 17,
+        "position": 228,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
-        "line": 31,
-        "position": 401,
+        "line": 36,
+        "position": 443,
       },
       "failure": "A maximum of 1 class per file is allowed.",
       "fix": undefined,
@@ -153,32 +153,32 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 28,
-        "position": 357,
+        "line": 33,
+        "position": 399,
       },
     },
     Object {
       "endPosition": Object {
         "character": 1,
-        "line": 422,
-        "position": 2714,
+        "line": 427,
+        "position": 2756,
       },
-      "failure": "This file has 423 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts",
+      "failure": "This file has 428 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts",
       "fix": undefined,
       "name": "./fixtures/maintainability.ts",
       "ruleName": "max-file-line-count",
       "ruleSeverity": "WARNING",
       "startPosition": Object {
         "character": 0,
-        "line": 422,
-        "position": 2713,
+        "line": 427,
+        "position": 2755,
       },
     },
     Object {
       "endPosition": Object {
         "character": 81,
-        "line": 34,
-        "position": 501,
+        "line": 39,
+        "position": 543,
       },
       "failure": "Exceeds maximum line length of 79",
       "fix": undefined,
@@ -187,15 +187,15 @@ Object {
       "ruleSeverity": "WARNING",
       "startPosition": Object {
         "character": 0,
-        "line": 34,
-        "position": 420,
+        "line": 39,
+        "position": 462,
       },
     },
     Object {
       "endPosition": Object {
         "character": 6,
-        "line": 37,
-        "position": 531,
+        "line": 42,
+        "position": 573,
       },
       "failure": "Use of default exports is forbidden",
       "fix": undefined,
@@ -204,15 +204,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 0,
-        "line": 37,
-        "position": 525,
+        "line": 42,
+        "position": 567,
       },
     },
     Object {
       "endPosition": Object {
         "character": 7,
-        "line": 49,
-        "position": 667,
+        "line": 54,
+        "position": 709,
       },
       "failure": "The key 'array' is not sorted alphabetically",
       "fix": undefined,
@@ -221,15 +221,15 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 2,
-        "line": 49,
-        "position": 662,
+        "line": 54,
+        "position": 704,
       },
     },
     Object {
       "endPosition": Object {
         "character": 7,
-        "line": 60,
-        "position": 801,
+        "line": 65,
+        "position": 843,
       },
       "failure": "The key 'array' is not sorted alphabetically",
       "fix": undefined,
@@ -238,20 +238,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 2,
-        "line": 60,
-        "position": 796,
+        "line": 65,
+        "position": 838,
       },
     },
     Object {
       "endPosition": Object {
         "character": 5,
-        "line": 42,
-        "position": 584,
+        "line": 47,
+        "position": 626,
       },
       "failure": "Identifier 'g' is never reassigned; use 'const' instead of 'let'.",
       "fix": Object {
         "innerLength": 3,
-        "innerStart": 579,
+        "innerStart": 621,
         "innerText": "const",
       },
       "name": "./fixtures/maintainability.ts",
@@ -259,20 +259,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 4,
-        "line": 42,
-        "position": 583,
-      },
-    },
-    Object {
-      "endPosition": Object {
-        "character": 5,
         "line": 47,
-        "position": 654,
+        "position": 625,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 5,
+        "line": 2,
+        "position": 26,
       },
       "failure": "Missing trailing comma",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 654,
+        "innerStart": 26,
         "innerText": ",",
       },
       "name": "./fixtures/maintainability.ts",
@@ -280,20 +280,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 5,
-        "line": 47,
-        "position": 654,
+        "line": 2,
+        "position": 26,
       },
     },
     Object {
       "endPosition": Object {
         "character": 5,
-        "line": 50,
-        "position": 676,
+        "line": 52,
+        "position": 696,
       },
       "failure": "Missing trailing comma",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 676,
+        "innerStart": 696,
         "innerText": ",",
       },
       "name": "./fixtures/maintainability.ts",
@@ -301,20 +301,41 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 5,
-        "line": 50,
-        "position": 676,
+        "line": 52,
+        "position": 696,
+      },
+    },
+    Object {
+      "endPosition": Object {
+        "character": 5,
+        "line": 55,
+        "position": 718,
+      },
+      "failure": "Missing trailing comma",
+      "fix": Object {
+        "innerLength": 0,
+        "innerStart": 718,
+        "innerText": ",",
+      },
+      "name": "./fixtures/maintainability.ts",
+      "ruleName": "trailing-comma",
+      "ruleSeverity": "ERROR",
+      "startPosition": Object {
+        "character": 5,
+        "line": 55,
+        "position": 718,
       },
     },
     Object {
       "endPosition": Object {
         "character": 13,
-        "line": 53,
-        "position": 705,
+        "line": 58,
+        "position": 747,
       },
       "failure": "Missing trailing comma",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 705,
+        "innerStart": 747,
         "innerText": ",",
       },
       "name": "./fixtures/maintainability.ts",
@@ -322,20 +343,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 13,
-        "line": 53,
-        "position": 705,
+        "line": 58,
+        "position": 747,
       },
     },
     Object {
       "endPosition": Object {
         "character": 13,
-        "line": 59,
-        "position": 790,
+        "line": 64,
+        "position": 832,
       },
       "failure": "Unnecessary trailing comma",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 789,
+        "innerStart": 831,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -343,20 +364,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 12,
-        "line": 59,
-        "position": 789,
+        "line": 64,
+        "position": 831,
       },
     },
     Object {
       "endPosition": Object {
         "character": 12,
-        "line": 60,
-        "position": 806,
+        "line": 65,
+        "position": 848,
       },
       "failure": "Unnecessary trailing comma",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 805,
+        "innerStart": 847,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -364,20 +385,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 11,
-        "line": 60,
-        "position": 805,
+        "line": 65,
+        "position": 847,
       },
     },
     Object {
       "endPosition": Object {
         "character": 19,
-        "line": 61,
-        "position": 829,
+        "line": 66,
+        "position": 871,
       },
       "failure": "Unnecessary trailing comma",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 828,
+        "innerStart": 870,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -385,20 +406,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 18,
-        "line": 61,
-        "position": 828,
+        "line": 66,
+        "position": 870,
       },
     },
     Object {
       "endPosition": Object {
         "character": 11,
-        "line": 67,
-        "position": 911,
+        "line": 72,
+        "position": 953,
       },
       "failure": "Forbidden trailing comma",
       "fix": Object {
         "innerLength": 1,
-        "innerStart": 910,
+        "innerStart": 952,
         "innerText": "",
       },
       "name": "./fixtures/maintainability.ts",
@@ -406,20 +427,20 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 10,
-        "line": 67,
-        "position": 910,
+        "line": 72,
+        "position": 952,
       },
     },
     Object {
       "endPosition": Object {
         "character": 20,
-        "line": 61,
-        "position": 830,
+        "line": 66,
+        "position": 872,
       },
       "failure": "missing whitespace",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 829,
+        "innerStart": 871,
         "innerText": " ",
       },
       "name": "./fixtures/maintainability.ts",
@@ -427,37 +448,37 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 19,
-        "line": 61,
-        "position": 829,
+        "line": 66,
+        "position": 871,
       },
     },
     Object {
       "endPosition": Object {
         "character": 11,
-        "line": 2,
-        "position": 57,
+        "line": 7,
+        "position": 99,
       },
-      "failure": "Mergeable namespace 'a' found. Merge its contents with the namespace on line 2.",
+      "failure": "Mergeable namespace 'a' found. Merge its contents with the namespace on line 7.",
       "fix": undefined,
       "name": "./fixtures/maintainability.ts",
       "ruleName": "no-mergeable-namespace",
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 10,
-        "line": 2,
-        "position": 56,
+        "line": 7,
+        "position": 98,
       },
     },
     Object {
       "endPosition": Object {
         "character": 11,
-        "line": 19,
-        "position": 275,
+        "line": 24,
+        "position": 317,
       },
       "failure": "Private member variable 'x' is never reassigned; mark it as 'readonly'.",
       "fix": Object {
         "innerLength": 0,
-        "innerStart": 273,
+        "innerStart": 315,
         "innerText": " readonly",
       },
       "name": "./fixtures/maintainability.ts",
@@ -465,38 +486,39 @@ Object {
       "ruleSeverity": "ERROR",
       "startPosition": Object {
         "character": 10,
-        "line": 19,
-        "position": 274,
+        "line": 24,
+        "position": 316,
       },
     },
   ],
   "fixes": Array [],
   "format": "prose",
   "output": "
-ERROR: ./fixtures/maintainability.ts[3, 11]: Mergeable namespace 'a' found. Merge its contents with the namespace on line 2.
-WARNING: ./fixtures/maintainability.ts[10, 22]: Buffer is deprecated: since v10.0.0 - Use \`Buffer.alloc()\` instead (also see \`Buffer.allocUnsafe()\`).
-ERROR: ./fixtures/maintainability.ts[13, 1]: Expected linebreak to be 'LF'
-ERROR: ./fixtures/maintainability.ts[20, 11]: Private member variable 'x' is never reassigned; mark it as 'readonly'.
-ERROR: ./fixtures/maintainability.ts[29, 1]: A maximum of 1 class per file is allowed.
-WARNING: ./fixtures/maintainability.ts[35, 1]: Exceeds maximum line length of 79
-ERROR: ./fixtures/maintainability.ts[38, 1]: Use of default exports is forbidden
-ERROR: ./fixtures/maintainability.ts[43, 5]: Identifier 'g' is never reassigned; use 'const' instead of 'let'.
-ERROR: ./fixtures/maintainability.ts[48, 6]: Missing trailing comma
-ERROR: ./fixtures/maintainability.ts[50, 3]: The key 'array' is not sorted alphabetically
-ERROR: ./fixtures/maintainability.ts[51, 6]: Missing trailing comma
-ERROR: ./fixtures/maintainability.ts[54, 5]: Shadowed name: 'a'
-ERROR: ./fixtures/maintainability.ts[54, 14]: Missing trailing comma
-ERROR: ./fixtures/maintainability.ts[60, 13]: Unnecessary trailing comma
-ERROR: ./fixtures/maintainability.ts[60, 15]: There should be no space before '}'
-ERROR: ./fixtures/maintainability.ts[61, 3]: The key 'array' is not sorted alphabetically
-ERROR: ./fixtures/maintainability.ts[61, 12]: Unnecessary trailing comma
-ERROR: ./fixtures/maintainability.ts[61, 14]: There should be no space before \\"]\\"
-ERROR: ./fixtures/maintainability.ts[62, 10]: Shadowed name: 'a'
-ERROR: ./fixtures/maintainability.ts[62, 19]: Unnecessary trailing comma
-ERROR: ./fixtures/maintainability.ts[62, 20]: missing whitespace
-ERROR: ./fixtures/maintainability.ts[68, 11]: Forbidden trailing comma
-WARNING: ./fixtures/maintainability.ts[423, 1]: This file has 423 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts
-ERROR: ./fixtures/maintainability.ts[423, 2]: file should end with a newline
+ERROR: ./fixtures/maintainability.ts[3, 6]: Missing trailing comma
+ERROR: ./fixtures/maintainability.ts[8, 11]: Mergeable namespace 'a' found. Merge its contents with the namespace on line 7.
+WARNING: ./fixtures/maintainability.ts[15, 22]: Buffer is deprecated: since v10.0.0 - Use \`Buffer.alloc()\` instead (also see \`Buffer.allocUnsafe()\`).
+ERROR: ./fixtures/maintainability.ts[18, 1]: Expected linebreak to be 'LF'
+ERROR: ./fixtures/maintainability.ts[25, 11]: Private member variable 'x' is never reassigned; mark it as 'readonly'.
+ERROR: ./fixtures/maintainability.ts[34, 1]: A maximum of 1 class per file is allowed.
+WARNING: ./fixtures/maintainability.ts[40, 1]: Exceeds maximum line length of 79
+ERROR: ./fixtures/maintainability.ts[43, 1]: Use of default exports is forbidden
+ERROR: ./fixtures/maintainability.ts[48, 5]: Identifier 'g' is never reassigned; use 'const' instead of 'let'.
+ERROR: ./fixtures/maintainability.ts[53, 6]: Missing trailing comma
+ERROR: ./fixtures/maintainability.ts[55, 3]: The key 'array' is not sorted alphabetically
+ERROR: ./fixtures/maintainability.ts[56, 6]: Missing trailing comma
+ERROR: ./fixtures/maintainability.ts[59, 5]: Shadowed name: 'a'
+ERROR: ./fixtures/maintainability.ts[59, 14]: Missing trailing comma
+ERROR: ./fixtures/maintainability.ts[65, 13]: Unnecessary trailing comma
+ERROR: ./fixtures/maintainability.ts[65, 15]: There should be no space before '}'
+ERROR: ./fixtures/maintainability.ts[66, 3]: The key 'array' is not sorted alphabetically
+ERROR: ./fixtures/maintainability.ts[66, 12]: Unnecessary trailing comma
+ERROR: ./fixtures/maintainability.ts[66, 14]: There should be no space before \\"]\\"
+ERROR: ./fixtures/maintainability.ts[67, 10]: Shadowed name: 'a'
+ERROR: ./fixtures/maintainability.ts[67, 19]: Unnecessary trailing comma
+ERROR: ./fixtures/maintainability.ts[67, 20]: missing whitespace
+ERROR: ./fixtures/maintainability.ts[73, 11]: Forbidden trailing comma
+WARNING: ./fixtures/maintainability.ts[428, 1]: This file has 428 lines, which exceeds the maximum of 400 lines allowed. Consider breaking this file up into smaller parts
+ERROR: ./fixtures/maintainability.ts[428, 2]: file should end with a newline
 ",
   "warningCount": 3,
 }
