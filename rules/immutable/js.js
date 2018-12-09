@@ -20,7 +20,7 @@ module.exports = { // tslint:disable-line:no-object-mutation
   'no-method-signature': false,
   // can vary per project
   'no-mixed-interface': false,
-  'no-object-mutation': true,
+  'no-object-mutation': [true, {'ignore-prefix': 'this'}],
   // classes may be necessary
   'no-this': false,
   'no-throw': false,
